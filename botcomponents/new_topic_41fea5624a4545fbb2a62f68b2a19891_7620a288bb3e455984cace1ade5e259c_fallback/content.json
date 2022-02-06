@@ -1,0 +1,246 @@
+{
+  "intents": [
+    {
+      "systemIntentTypes": [
+        "Fallback"
+      ],
+      "intentType": "System",
+      "dialogId": "new_topic_41fea5624a4545fbb2a62f68b2a19891_7620a288bb3e455984cace1ade5e259c_fallback",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_41fea5624a4545fbb2a62f68b2a19891_7620a288bb3e455984cace1ade5e259c_fallback",
+      "displayName": "Fallback",
+      "description": "System topic that includes content and behavior for when the bot can't determine the user's intent. Also includes the variable UnrecognizedTriggerPhrase to capture the unrecognized input.",
+      "createdTime": "2020-02-07T00:00:00Z",
+      "updatedTime": "2021-12-12T01:54:13.1922903Z",
+      "createdUserId": "user0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "6ffbf7da-41b1-47d1-a58a-984b90704108",
+      "dialogType": "System",
+      "messageNodes": [
+        {
+          "botMessageId": "e70e8e99-a589-4f36-81b0-ca2af785031a",
+          "nodeType": "BotMessageNode",
+          "id": "3117ce4e-aa08-4431-9db1-efe5fb550d05",
+          "defaultTargetNodeId": "5e7dafc5-f873-4382-956e-f27cc605a303"
+        },
+        {
+          "botMessageId": "3228cdf7-272b-40cc-982a-84fa95b878fb",
+          "nodeType": "BotMessageNode",
+          "id": "4799a3d0-b4c4-4bc7-a227-337c82e1a566"
+        }
+      ],
+      "actionNodes": [
+        {
+          "contextVariableId": "3217b8b0-4a63-4066-8773-88312fba3772",
+          "nodeType": "ActionNode",
+          "inputParameterVariableIdMap": {
+            "text": "{new_variable_41fea5624a4545fbb2a62f68b2a19891_340aefff448e492eac88d718fbdf56ac}"
+          },
+          "outputExpressionVariableIds": [
+            "aff2840d-6d02-4ebd-aa65-7650018a7ef4"
+          ],
+          "id": "6ffbf7da-41b1-47d1-a58a-984b90704108",
+          "routes": [
+            {
+              "expression": "@equals(parameters('aff2840d-6d02-4ebd-aa65-7650018a7ef4'), 'No good match found in KB.')",
+              "targetNodeId": "3117ce4e-aa08-4431-9db1-efe5fb550d05"
+            }
+          ],
+          "defaultTargetNodeId": "4799a3d0-b4c4-4bc7-a227-337c82e1a566"
+        },
+        {
+          "contextVariableId": "2eee3f4b-1ce9-4cdc-9a34-50f2437a3da3",
+          "nodeType": "ActionNode",
+          "inputParameterVariableIdMap": {
+            "text_1": "{new_variable_41fea5624a4545fbb2a62f68b2a19891_340aefff448e492eac88d718fbdf56ac}"
+          },
+          "id": "5e7dafc5-f873-4382-956e-f27cc605a303"
+        }
+      ],
+      "id": "new_topic_41fea5624a4545fbb2a62f68b2a19891_7620a288bb3e455984cace1ade5e259c_fallback",
+      "displayName": "Fallback",
+      "createdTime": "2020-02-07T00:00:00Z",
+      "updatedTime": "2021-12-12T01:54:13.1922903Z",
+      "createdUserId": "user0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Omlouvám se, tohle neumím zodpovědět.\n\nDotaz byl zaznamenán a bude přezkoumán našimi operátory"
+        }
+      },
+      "id": "e70e8e99-a589-4f36-81b0-ca2af785031a",
+      "createdTime": "2021-12-12T01:53:32.477Z",
+      "updatedTime": "2021-12-12T01:53:32.477Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "{aff2840d-6d02-4ebd-aa65-7650018a7ef4}"
+        }
+      },
+      "id": "3228cdf7-272b-40cc-982a-84fa95b878fb",
+      "createdTime": "2021-12-12T01:53:57.126Z",
+      "updatedTime": "2021-12-12T01:53:57.126Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "actionDefinitions": [
+    {
+      "timeoutInSeconds": 60,
+      "retryCount": 1,
+      "method": 2,
+      "headers": {
+        "accept": "application/json"
+      },
+      "bodyContent": "{\"text\":\"{new_variable_41fea5624a4545fbb2a62f68b2a19891_340aefff448e492eac88d718fbdf56ac}\"}",
+      "actionType": "Flow",
+      "flowMetadata": {
+        "id": "92363d7e-e45a-ec11-8f8f-0022489c86c7",
+        "uniqueId": "794aeb11-0778-48e8-88b5-432e6666a4ba",
+        "title": "qaFlow",
+        "description": "Call this flow from Power Virtual Agents.",
+        "httpMethod": 2,
+        "inputParameters": [
+          {
+            "name": "qaRec",
+            "id": "text",
+            "type": "String",
+            "optional": false
+          }
+        ],
+        "outputParameters": [
+          {
+            "name": "qaRet",
+            "id": "qaret",
+            "type": "String",
+            "optional": true
+          }
+        ],
+        "outputSchemaType": "Json",
+        "createdTime": "2021-12-12T00:43:17Z",
+        "isEnabled": true,
+        "lastModifiedTime": "2021-12-12T00:44:27Z",
+        "versionNumber": 16296645
+      },
+      "id": "b7b3dd2f-f2f5-432c-bc48-c67347d367eb",
+      "displayName": "qaFlow",
+      "description": "Call this flow from Power Virtual Agents.",
+      "createdTime": "2021-12-12T00:44:45.462Z",
+      "updatedTime": "2021-12-12T00:44:45.462Z"
+    },
+    {
+      "timeoutInSeconds": 60,
+      "retryCount": 1,
+      "method": 2,
+      "headers": {
+        "accept": "application/json"
+      },
+      "bodyContent": "{\"text_1\":\"{new_variable_41fea5624a4545fbb2a62f68b2a19891_340aefff448e492eac88d718fbdf56ac}\"}",
+      "actionType": "Flow",
+      "flowMetadata": {
+        "id": "1d649cdf-0856-ec11-8f8f-0022489c86c7",
+        "uniqueId": "eaad6b3d-9492-46f2-9960-e98cfafb7a14",
+        "title": "unrecognizedPhrase",
+        "description": "Call this flow from Power Virtual Agents.",
+        "httpMethod": 2,
+        "inputParameters": [
+          {
+            "name": "unrecognizedPhrase_content",
+            "id": "text_1",
+            "type": "String",
+            "optional": false
+          }
+        ],
+        "outputSchemaType": "Json",
+        "createdTime": "2021-12-05T20:21:07Z",
+        "isEnabled": true,
+        "lastModifiedTime": "2021-12-12T01:04:15Z",
+        "versionNumber": 16297006
+      },
+      "id": "7a9c0a3f-7907-4581-89f8-907f04b97631",
+      "displayName": "unrecognizedPhrase",
+      "description": "Call this flow from Power Virtual Agents.",
+      "createdTime": "2021-12-12T01:53:47.432Z",
+      "updatedTime": "2021-12-12T01:53:47.432Z"
+    }
+  ],
+  "contextVariables": [
+    {
+      "customTypeId": "62c0f887-15b1-4014-bab8-9cb93a124232",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "b7b3dd2f-f2f5-432c-bc48-c67347d367eb",
+      "isGlobal": false,
+      "id": "3217b8b0-4a63-4066-8773-88312fba3772",
+      "displayName": "",
+      "createdTime": "2021-12-12T00:44:45.463Z",
+      "updatedTime": "2021-12-12T01:54:13.1922903Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "Expression",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "expression": "@parameters('3217b8b0-4a63-4066-8773-88312fba3772')['qaret']",
+      "isGlobal": false,
+      "id": "aff2840d-6d02-4ebd-aa65-7650018a7ef4",
+      "displayName": "qaRet",
+      "createdTime": "2021-12-12T00:44:45.463Z",
+      "updatedTime": "2021-12-12T01:54:13.1922903Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "customTypeId": "7a304e4c-e94d-4f46-ae08-481cd74b3646",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "7a9c0a3f-7907-4581-89f8-907f04b97631",
+      "isGlobal": false,
+      "id": "2eee3f4b-1ce9-4cdc-9a34-50f2437a3da3",
+      "displayName": "",
+      "createdTime": "2021-12-12T01:53:47.433Z",
+      "updatedTime": "2021-12-12T01:54:13.1922903Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "jsonTypes": [
+    {
+      "customTypeSchema": "Json",
+      "id": "62c0f887-15b1-4014-bab8-9cb93a124232",
+      "displayName": "Response Json Type for Flow - qaFlow",
+      "createdTime": "2021-12-12T00:44:45.463Z",
+      "updatedTime": "2021-12-12T00:44:45.463Z"
+    },
+    {
+      "customTypeSchema": "Json",
+      "id": "7a304e4c-e94d-4f46-ae08-481cd74b3646",
+      "displayName": "Response Json Type for Flow - unrecognizedPhrase",
+      "createdTime": "2021-12-12T01:53:47.433Z",
+      "updatedTime": "2021-12-12T01:53:47.433Z"
+    }
+  ]
+}

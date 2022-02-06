@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "endUserOverrideName": "Vládní opatření",
+      "triggerQueries": [
+        "vládní zákazy",
+        "zákazy",
+        "restrikce",
+        "vládní opatření",
+        "vládní nařízení",
+        "nařízení",
+        "opatření"
+      ],
+      "dialogId": "new_topic_e2da35ebbe4a4b7abc1307616528a804",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_e2da35ebbe4a4b7abc1307616528a804",
+      "displayName": "INFO_Nařízení",
+      "description": "",
+      "createdTime": "2021-12-05T16:07:35.2566795Z",
+      "updatedTime": "2022-02-05T03:37:23.9877355Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "2a8d953d-13eb-4295-8672-a1b39082fda9",
+      "messageNodes": [
+        {
+          "botMessageId": "eab9d6dc-3e93-4052-a5a3-e8f83d75b60d",
+          "nodeType": "BotMessageNode",
+          "id": "2a8d953d-13eb-4295-8672-a1b39082fda9",
+          "defaultTargetNodeId": "9a85cf52-4df9-4f7d-a227-089c361645ff"
+        },
+        {
+          "botMessageId": "71649c49-e524-4b74-a770-ce61896dbf83",
+          "nodeType": "BotMessageNode",
+          "id": "9a85cf52-4df9-4f7d-a227-089c361645ff"
+        }
+      ],
+      "id": "new_topic_e2da35ebbe4a4b7abc1307616528a804",
+      "displayName": "Dialog for INFO_Nařízení",
+      "createdTime": "2021-12-05T16:07:35.2566795Z",
+      "updatedTime": "2022-01-30T02:33:11.7282307Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Aktuální vládní opatření najdete [zde](https://covid.gov.cz/opatreni)."
+        }
+      },
+      "id": "eab9d6dc-3e93-4052-a5a3-e8f83d75b60d",
+      "createdTime": "2021-12-05T16:07:35.2566795Z",
+      "updatedTime": "2021-12-05T16:07:35.2566795Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Mohu Vám ještě s něčím pomoct?"
+        }
+      },
+      "id": "71649c49-e524-4b74-a770-ce61896dbf83",
+      "createdTime": "2022-01-30T02:32:58.708Z",
+      "updatedTime": "2022-01-30T02:32:58.708Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ]
+}

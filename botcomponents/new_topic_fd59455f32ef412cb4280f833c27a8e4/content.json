@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "Ještě jednuc",
+        "Ještě jednou",
+        "Znovu",
+        "Začít znovu"
+      ],
+      "dialogId": "new_topic_fd59455f32ef412cb4280f833c27a8e4",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_fd59455f32ef412cb4280f833c27a8e4",
+      "displayName": "U_Rerun",
+      "description": "",
+      "createdTime": "2021-05-13T15:51:43.838052Z",
+      "updatedTime": "2022-02-05T03:31:49.3100361Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "35a7f732-c4ff-4f67-9f9d-2792b4f30a4c",
+      "messageNodes": [
+        {
+          "botMessageId": "bfa70398-430c-4f98-9258-c8dcf5a5d15d",
+          "nodeType": "BotMessageNode",
+          "id": "35a7f732-c4ff-4f67-9f9d-2792b4f30a4c"
+        }
+      ],
+      "id": "new_topic_fd59455f32ef412cb4280f833c27a8e4",
+      "displayName": "Dialog for Začít znovu",
+      "createdTime": "2021-05-13T15:51:43.838052Z",
+      "updatedTime": "2022-02-05T03:31:49.3100361Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Mohu Vám ještě s něčím pomoct?"
+        }
+      },
+      "id": "bfa70398-430c-4f98-9258-c8dcf5a5d15d",
+      "createdTime": "2021-12-10T00:28:36.055Z",
+      "updatedTime": "2021-12-10T00:28:36.055Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ]
+}

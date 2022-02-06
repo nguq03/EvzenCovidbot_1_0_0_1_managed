@@ -1,0 +1,202 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "telefon na střediska",
+        "hygienická střediska telefon",
+        "chci kontakt na hygienické středisko",
+        "who you gonna call",
+        "kam zavolat",
+        "telefon na hygienické středisko",
+        "hygienická střediska",
+        "chci kontakt",
+        "kontakt"
+      ],
+      "dialogId": "new_topic_cdd92ab3da6a44ea8008cf147a19b304",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_cdd92ab3da6a44ea8008cf147a19b304",
+      "displayName": "T4_Kontakty",
+      "description": "",
+      "createdTime": "2021-12-09T18:39:59.9226837Z",
+      "updatedTime": "2022-02-05T03:35:28.1307808Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "b89b006b-e71b-49fd-b87e-2ecf0917639a",
+      "messageNodes": [
+        {
+          "botMessageId": "73cfbb1b-a1a2-4de7-bbb1-ccf680692127",
+          "nodeType": "BotMessageNode",
+          "id": "a36129c1-f138-47c0-aaaa-276ce1eb6a38"
+        }
+      ],
+      "actionNodes": [
+        {
+          "contextVariableId": "b8786e88-62ef-45cf-91a6-90eddc5742cf",
+          "nodeType": "ActionNode",
+          "inputParameterVariableIdMap": {
+            "text": "{9466c8f2-a488-4f17-a3a4-2c8e28d473ea}"
+          },
+          "outputExpressionVariableIds": [
+            "ea5f7697-3b1a-475f-9cc7-0ff8f2e300ef"
+          ],
+          "id": "7add2ad6-aa15-4a28-8120-c11e899d2307",
+          "defaultTargetNodeId": "a36129c1-f138-47c0-aaaa-276ce1eb6a38"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "9466c8f2-a488-4f17-a3a4-2c8e28d473ea",
+          "nodeType": "QuestionNode",
+          "id": "b89b006b-e71b-49fd-b87e-2ecf0917639a",
+          "defaultTargetNodeId": "7add2ad6-aa15-4a28-8120-c11e899d2307"
+        }
+      ],
+      "id": "new_topic_cdd92ab3da6a44ea8008cf147a19b304",
+      "displayName": "Dialog for T4_Kontakty",
+      "createdTime": "2021-12-09T18:39:59.9226837Z",
+      "updatedTime": "2021-12-09T18:55:39.8257826Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Mohu Vám poskytnout kontakt na hygienické středisko Vašeho kraje, stačí když mi povíte, pro který kraj kontakt chcete."
+        }
+      },
+      "id": "24846b08-55b2-4a27-b76b-0735e2a48a85",
+      "createdTime": "2021-12-09T18:44:23.513Z",
+      "updatedTime": "2021-12-09T18:44:23.513Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "{ea5f7697-3b1a-475f-9cc7-0ff8f2e300ef}"
+        }
+      },
+      "id": "73cfbb1b-a1a2-4de7-bbb1-ccf680692127",
+      "createdTime": "2021-12-09T18:54:27.437Z",
+      "updatedTime": "2021-12-09T18:54:27.437Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "actionDefinitions": [
+    {
+      "timeoutInSeconds": 60,
+      "retryCount": 1,
+      "method": 2,
+      "headers": {
+        "accept": "application/json"
+      },
+      "bodyContent": "{\"text\":\"{9466c8f2-a488-4f17-a3a4-2c8e28d473ea}\"}",
+      "actionType": "Flow",
+      "flowMetadata": {
+        "id": "3bada53f-2159-ec11-8f8f-0022489c86c7",
+        "uniqueId": "3ecb2701-a916-45b8-8c02-2e5bbaeeb0a1",
+        "title": "contactCovid",
+        "description": "Call this flow from Power Virtual Agents.",
+        "httpMethod": 2,
+        "inputParameters": [
+          {
+            "name": "KrajRec",
+            "id": "text",
+            "type": "String",
+            "optional": false
+          }
+        ],
+        "outputParameters": [
+          {
+            "name": "contactRet",
+            "id": "contactret",
+            "type": "String",
+            "optional": true
+          }
+        ],
+        "outputSchemaType": "Json",
+        "createdTime": "2021-12-09T18:53:09Z",
+        "isEnabled": true,
+        "lastModifiedTime": "2021-12-09T18:53:40Z",
+        "versionNumber": 16291382
+      },
+      "id": "3adfa40c-624b-4044-baeb-fbf716599501",
+      "displayName": "contactCovid",
+      "description": "Call this flow from Power Virtual Agents.",
+      "createdTime": "2021-12-09T18:54:13.046Z",
+      "updatedTime": "2021-12-09T18:54:13.046Z"
+    }
+  ],
+  "contextVariables": [
+    {
+      "customTypeId": "new_customtype_f12ec12c2249488d831ef1a4c4803d95",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "24846b08-55b2-4a27-b76b-0735e2a48a85"
+        ]
+      },
+      "isGlobal": false,
+      "id": "9466c8f2-a488-4f17-a3a4-2c8e28d473ea",
+      "displayName": "contactKrajVar",
+      "createdTime": "2021-12-09T18:44:23.513Z",
+      "updatedTime": "2021-12-09T18:55:39.8257826Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "customTypeId": "e6fac7a4-9417-4f8c-9ee6-6ef33da23e3d",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "3adfa40c-624b-4044-baeb-fbf716599501",
+      "isGlobal": false,
+      "id": "b8786e88-62ef-45cf-91a6-90eddc5742cf",
+      "displayName": "",
+      "createdTime": "2021-12-09T18:54:13.047Z",
+      "updatedTime": "2021-12-09T18:55:39.8257826Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "Expression",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "expression": "@parameters('b8786e88-62ef-45cf-91a6-90eddc5742cf')['contactret']",
+      "isGlobal": false,
+      "id": "ea5f7697-3b1a-475f-9cc7-0ff8f2e300ef",
+      "displayName": "contactRet",
+      "createdTime": "2021-12-09T18:54:13.047Z",
+      "updatedTime": "2021-12-09T18:55:39.8257826Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "jsonTypes": [
+    {
+      "customTypeSchema": "Json",
+      "id": "e6fac7a4-9417-4f8c-9ee6-6ef33da23e3d",
+      "displayName": "Response Json Type for Flow - contactCovid",
+      "createdTime": "2021-12-09T18:54:13.047Z",
+      "updatedTime": "2021-12-09T18:54:13.047Z"
+    }
+  ]
+}

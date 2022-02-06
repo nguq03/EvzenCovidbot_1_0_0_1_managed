@@ -1,0 +1,200 @@
+{
+  "intents": [
+    {
+      "endUserOverrideName": "Statistiky",
+      "triggerQueries": [
+        "rád bych viděl statistiky",
+        "statistická čísla",
+        "ukaž mi statistiky",
+        "chci vidět statistiky",
+        "statistiku",
+        "statistiky"
+      ],
+      "dialogId": "new_topic_bf3001f2999b4c6c98c9894ea8b61613",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_bf3001f2999b4c6c98c9894ea8b61613",
+      "displayName": "T3_Statistiky",
+      "description": "",
+      "createdTime": "2021-12-06T21:07:00.4213568Z",
+      "updatedTime": "2022-02-05T03:35:15.9876711Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "5026093a-4c6d-4ef4-9b50-8f0c68011ff7",
+      "messageNodes": [
+        {
+          "botMessageId": "1e41690d-2bb3-412b-95d0-53130301091d",
+          "nodeType": "BotMessageNode",
+          "id": "89fa1bda-10ce-4127-96ec-2f8e7f7e9cfa"
+        }
+      ],
+      "actionNodes": [
+        {
+          "contextVariableId": "abd7e042-99f3-420a-b8a3-52d08eec5fe5",
+          "nodeType": "ActionNode",
+          "inputParameterVariableIdMap": {
+            "text": "{7d237ea8-2b33-4b1b-b32c-fa2d5dd925c6}"
+          },
+          "outputExpressionVariableIds": [
+            "f92f1e9a-91d8-4163-823a-db23eb417055"
+          ],
+          "id": "45258f7f-efd1-4c64-a3f4-5161cc05c478",
+          "defaultTargetNodeId": "89fa1bda-10ce-4127-96ec-2f8e7f7e9cfa"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "7d237ea8-2b33-4b1b-b32c-fa2d5dd925c6",
+          "nodeType": "QuestionNode",
+          "id": "5026093a-4c6d-4ef4-9b50-8f0c68011ff7",
+          "defaultTargetNodeId": "45258f7f-efd1-4c64-a3f4-5161cc05c478"
+        }
+      ],
+      "id": "new_topic_bf3001f2999b4c6c98c9894ea8b61613",
+      "displayName": "Dialog for T3_Statistiky",
+      "createdTime": "2021-12-06T21:07:00.4213568Z",
+      "updatedTime": "2022-01-30T01:47:29.2104817Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Mohu Vám poskytnout aktuální statistiky v rámci České republiky a jejích krajů. Napište například: _\"Česko\"_ nebo _\"Ústecký kraj\"_"
+        }
+      },
+      "id": "a7759de5-f187-4b69-8107-c27d878c930c",
+      "createdTime": "2021-12-06T21:10:14.645Z",
+      "updatedTime": "2021-12-06T21:10:14.645Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "{f92f1e9a-91d8-4163-823a-db23eb417055}"
+        }
+      },
+      "id": "1e41690d-2bb3-412b-95d0-53130301091d",
+      "createdTime": "2021-12-06T22:05:18.003Z",
+      "updatedTime": "2021-12-06T22:05:18.003Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "actionDefinitions": [
+    {
+      "timeoutInSeconds": 60,
+      "retryCount": 1,
+      "method": 2,
+      "headers": {
+        "accept": "application/json"
+      },
+      "bodyContent": "{\"text\":\"{7d237ea8-2b33-4b1b-b32c-fa2d5dd925c6}\"}",
+      "actionType": "Flow",
+      "flowMetadata": {
+        "id": "be1c9a9a-df56-ec11-8f8f-0022489c86c7",
+        "uniqueId": "75f34828-2c01-4126-9dcf-ded98190b47a",
+        "title": "statistikaFlow",
+        "description": "Call this flow from Power Virtual Agents.",
+        "httpMethod": 2,
+        "inputParameters": [
+          {
+            "name": "statsRec",
+            "id": "text",
+            "type": "String",
+            "optional": false
+          }
+        ],
+        "outputParameters": [
+          {
+            "name": "statsRet",
+            "id": "statsret",
+            "type": "String",
+            "optional": true
+          }
+        ],
+        "outputSchemaType": "Json",
+        "createdTime": "2021-12-06T21:58:12Z",
+        "isEnabled": true,
+        "lastModifiedTime": "2021-12-12T03:54:54Z",
+        "versionNumber": 16297432
+      },
+      "id": "c7393afd-3dab-4d66-9d6c-eddc468e90df",
+      "displayName": "statistikaFlow",
+      "description": "Call this flow from Power Virtual Agents.",
+      "createdTime": "2021-12-12T03:57:39.495Z",
+      "updatedTime": "2021-12-12T03:57:39.495Z"
+    }
+  ],
+  "contextVariables": [
+    {
+      "customTypeId": "new_customtype_f12ec12c2249488d831ef1a4c4803d95",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "a7759de5-f187-4b69-8107-c27d878c930c"
+        ]
+      },
+      "isGlobal": false,
+      "id": "7d237ea8-2b33-4b1b-b32c-fa2d5dd925c6",
+      "displayName": "statsChoice",
+      "createdTime": "2021-12-06T21:10:14.645Z",
+      "updatedTime": "2022-01-30T01:47:29.2104817Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "customTypeId": "103ef09d-19f3-40e1-8496-d7ccee8f9a35",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "c7393afd-3dab-4d66-9d6c-eddc468e90df",
+      "isGlobal": false,
+      "id": "abd7e042-99f3-420a-b8a3-52d08eec5fe5",
+      "displayName": "",
+      "createdTime": "2021-12-12T03:57:39.496Z",
+      "updatedTime": "2022-01-30T01:47:29.2104817Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "Expression",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "expression": "@parameters('abd7e042-99f3-420a-b8a3-52d08eec5fe5')['statsret']",
+      "isGlobal": false,
+      "id": "f92f1e9a-91d8-4163-823a-db23eb417055",
+      "displayName": "statsRet",
+      "createdTime": "2021-12-12T03:57:39.496Z",
+      "updatedTime": "2022-01-30T01:47:29.2104817Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "jsonTypes": [
+    {
+      "customTypeSchema": "Json",
+      "id": "103ef09d-19f3-40e1-8496-d7ccee8f9a35",
+      "displayName": "Response Json Type for Flow - statistikaFlow",
+      "createdTime": "2021-12-12T03:57:39.496Z",
+      "updatedTime": "2021-12-12T03:57:39.496Z"
+    }
+  ]
+}

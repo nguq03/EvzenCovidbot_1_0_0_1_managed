@@ -1,0 +1,223 @@
+{
+  "namedEntities": [
+    {
+      "synonyms": [
+        "ústeckého kraje",
+        "ústeckého",
+        "ústí nad labem",
+        "ústí",
+        "teplice",
+        "ústecký kraj",
+        "Ústecký"
+      ],
+      "id": "c58eb056-22df-4fdc-92ce-5d2411576d43",
+      "displayName": "ULK",
+      "createdTime": "2021-05-20T17:43:50.2897567Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Pražský",
+        "Praha"
+      ],
+      "id": "4646b15a-487c-4539-85cb-8b594a49a480",
+      "displayName": "PHA",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Středočeský"
+      ],
+      "id": "6e74cd15-6034-4455-8c0f-de6a7a570343",
+      "displayName": "STČ",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "budějovice",
+        "České Budějovice",
+        "Jihočeský"
+      ],
+      "id": "435e6092-d29a-421b-a2b8-120562fa55ec",
+      "displayName": "JHČ",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Plzeňský",
+        "Plzeň"
+      ],
+      "id": "7878215f-5ff3-48f6-b18e-e3926a5f699b",
+      "displayName": "PLK",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Karlovy Vary",
+        "Karlovarský"
+      ],
+      "id": "20e36b24-a6d8-4f60-b752-1d60c4baebbc",
+      "displayName": "KVK",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Liberec",
+        "Liberecký"
+      ],
+      "id": "7f7772bb-f2e9-4f41-b355-462c421b379b",
+      "displayName": "LBK",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Hradec Králové",
+        "Královéhradecký"
+      ],
+      "id": "9c60e7d6-f99e-40f2-93e1-8b53d2f7069d",
+      "displayName": "HKK",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Pardubice",
+        "Pardubický"
+      ],
+      "id": "5cac1761-4a17-42b7-8f38-4e631ee6fc73",
+      "displayName": "PAK",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Olomouc",
+        "Olomoucký"
+      ],
+      "id": "a057dc83-a030-4f28-99ba-181e18f205b5",
+      "displayName": "OLK",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Ostrava",
+        "Moravskoslezský"
+      ],
+      "id": "c1b728d4-e138-49a1-acc5-41ad17c357c9",
+      "displayName": "MSK",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Brno",
+        "Jihomoravský"
+      ],
+      "id": "5a3619b0-d524-4d7d-a278-5e34f702a745",
+      "displayName": "JHM",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Zlín",
+        "Zlínský"
+      ],
+      "id": "f21aba20-e44a-4bcc-a51a-90b3b588618c",
+      "displayName": "ZLK",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Jihlava",
+        "Vysočina"
+      ],
+      "id": "28436ff6-dac7-4114-a4ab-4594b483c36d",
+      "displayName": "VYS",
+      "createdTime": "2021-05-27T22:33:30.4361768Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "české statistiky",
+        "česka",
+        "czechia",
+        "česká republika",
+        "čechy",
+        "česko"
+      ],
+      "id": "023733fc-af4f-4b53-85ea-19b1c7c5103f",
+      "displayName": "CZE",
+      "createdTime": "2021-12-06T22:21:20.4310947Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "closedListTypes": [
+    {
+      "namedEntities": [
+        "c58eb056-22df-4fdc-92ce-5d2411576d43",
+        "4646b15a-487c-4539-85cb-8b594a49a480",
+        "6e74cd15-6034-4455-8c0f-de6a7a570343",
+        "435e6092-d29a-421b-a2b8-120562fa55ec",
+        "7878215f-5ff3-48f6-b18e-e3926a5f699b",
+        "20e36b24-a6d8-4f60-b752-1d60c4baebbc",
+        "7f7772bb-f2e9-4f41-b355-462c421b379b",
+        "9c60e7d6-f99e-40f2-93e1-8b53d2f7069d",
+        "5cac1761-4a17-42b7-8f38-4e631ee6fc73",
+        "a057dc83-a030-4f28-99ba-181e18f205b5",
+        "c1b728d4-e138-49a1-acc5-41ad17c357c9",
+        "5a3619b0-d524-4d7d-a278-5e34f702a745",
+        "f21aba20-e44a-4bcc-a51a-90b3b588618c",
+        "28436ff6-dac7-4114-a4ab-4594b483c36d",
+        "023733fc-af4f-4b53-85ea-19b1c7c5103f"
+      ],
+      "smartMatchingEnabled": true,
+      "customTypeSchema": "ClosedList",
+      "id": "new_customtype_f12ec12c2249488d831ef1a4c4803d95",
+      "displayName": "Kraje",
+      "description": "",
+      "createdTime": "2021-05-20T17:43:50.2897567Z",
+      "updatedTime": "2021-12-12T04:01:08.3250231Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ]
+}

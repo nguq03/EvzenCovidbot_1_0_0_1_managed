@@ -1,0 +1,78 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "mám otázku",
+        "otázky",
+        "otázku",
+        "na co se můžu ptát",
+        "co umíš",
+        "častý dotazy",
+        "častý otázky",
+        "časté otázky",
+        "časté dotazy",
+        "na co se můžu ptát?",
+        "nejčastější otázky",
+        "kovidak",
+        "koronavir",
+        "koronavirus",
+        "COVID-19",
+        "covid",
+        "dotazy na koronavirus",
+        "dotazy na koronu",
+        "otázky na covid",
+        "nejlepší dotazy na covid",
+        "můžu se tě na něco zeptat",
+        "chci se zeptat",
+        "na co se tě můžu zeptat",
+        "na co se ptát",
+        "nejčastější dotazy",
+        "častý otázky",
+        "časté dotazy",
+        "často dotazované otázky"
+      ],
+      "dialogId": "new_topic_e45dcc7e9b7d4d71bd8b5e8e1cfd0e9b",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_e45dcc7e9b7d4d71bd8b5e8e1cfd0e9b",
+      "displayName": "T1_FAQ",
+      "description": "",
+      "createdTime": "2021-12-05T17:07:38.9257745Z",
+      "updatedTime": "2022-02-05T03:37:00.8158737Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "2658091c-2e70-4704-a73a-ef41c7d442f5",
+      "messageNodes": [
+        {
+          "botMessageId": "31a6f223-46f0-4fc6-b764-48990811e7bc",
+          "nodeType": "BotMessageNode",
+          "id": "2658091c-2e70-4704-a73a-ef41c7d442f5"
+        }
+      ],
+      "id": "new_topic_e45dcc7e9b7d4d71bd8b5e8e1cfd0e9b",
+      "displayName": "Dialog for INFO_faq",
+      "createdTime": "2021-12-05T17:07:38.9257745Z",
+      "updatedTime": "2022-01-30T02:33:59.1089545Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Můžete se mě zeptat například na:\n\n*   Co je COVID-19?\n*   Jak se COVID-19 šíří?\n*   Jakým způsobem se před COVID-19 chránit?\n*   Domácí karanténa\n*   Očkování\n*   Testování\n*   Nařízení vlády\n*   Kontakty"
+        }
+      },
+      "id": "31a6f223-46f0-4fc6-b764-48990811e7bc",
+      "createdTime": "2021-12-05T17:07:38.9257745Z",
+      "updatedTime": "2021-12-05T17:07:38.9257745Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ]
+}

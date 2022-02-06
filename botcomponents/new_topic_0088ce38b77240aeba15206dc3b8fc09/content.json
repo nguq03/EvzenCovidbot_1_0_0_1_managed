@@ -1,0 +1,48 @@
+{
+  "intents": [
+    {
+      "dialogId": "new_topic_0088ce38b77240aeba15206dc3b8fc09",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_0088ce38b77240aeba15206dc3b8fc09",
+      "displayName": "U_PozdravAlt",
+      "description": "",
+      "createdTime": "2021-12-08T13:32:09.0482346Z",
+      "updatedTime": "2022-02-05T03:32:28.8669748Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "7014defd-402a-4748-8be3-70b3ead756e2",
+      "messageNodes": [
+        {
+          "botMessageId": "0341b9d7-a86f-42be-8447-306d11bad7df",
+          "nodeType": "BotMessageNode",
+          "id": "7014defd-402a-4748-8be3-70b3ead756e2"
+        }
+      ],
+      "id": "new_topic_0088ce38b77240aeba15206dc3b8fc09",
+      "displayName": "Dialog for PozdravAlt",
+      "createdTime": "2021-12-08T13:32:09.0482346Z",
+      "updatedTime": "2022-02-05T03:32:28.8669748Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "S čím Vám dnes mohu pomoci?\n\n*   Informace o COVID-19\n*   Diagnóza a kontakty\n*   Statistiky\n*   Kontakty"
+        }
+      },
+      "id": "0341b9d7-a86f-42be-8447-306d11bad7df",
+      "createdTime": "2021-12-08T13:32:09.0482346Z",
+      "updatedTime": "2021-12-08T13:32:09.0482346Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ]
+}

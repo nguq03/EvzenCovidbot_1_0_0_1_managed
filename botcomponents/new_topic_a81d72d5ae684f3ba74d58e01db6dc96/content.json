@@ -1,0 +1,241 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "české statistiky",
+        "česko",
+        "čechy",
+        "česká republika",
+        "jihlava",
+        "vysočina",
+        "zlínský kraj",
+        "zlín",
+        "jihomoravský kraj",
+        "brno",
+        "moravskoslezský kraj",
+        "ostrava",
+        "olomouc",
+        "olomoucký kraj",
+        "pardubický kraj",
+        "pardubice",
+        "liberecký kraj",
+        "liberec",
+        "liberecký",
+        "karlovy vary",
+        "karlovarský kraj",
+        "plzeň",
+        "plzeňský kraj",
+        "jihočeský kraj",
+        "české budějovice",
+        "středočeský",
+        "středočeský kraj",
+        "pražský kraj",
+        "praha",
+        "ústecký",
+        "ústecký kraj",
+        "teplice",
+        "ústí nad labem",
+        "CZE",
+        "VYS",
+        "ZLK",
+        "JHM",
+        "MSK",
+        "OLK",
+        "PAK",
+        "HKK",
+        "LBK",
+        "KVK",
+        "PLK",
+        "JHČ",
+        "STČ",
+        "PHA",
+        "ULK"
+      ],
+      "dialogId": "new_topic_a81d72d5ae684f3ba74d58e01db6dc96",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_a81d72d5ae684f3ba74d58e01db6dc96",
+      "displayName": "T3_StatistikaTrigger",
+      "description": "",
+      "createdTime": "2021-12-06T22:21:27.1498934Z",
+      "updatedTime": "2022-02-05T03:35:23.4278359Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "8eff1d62-0f1c-4245-9c1d-54d5122b1f82",
+      "messageNodes": [
+        {
+          "botMessageId": "359437ba-f917-4601-9f4e-1a9ee215a924",
+          "nodeType": "BotMessageNode",
+          "id": "4962f858-3941-4bb7-9a23-74845ab62721"
+        }
+      ],
+      "actionNodes": [
+        {
+          "contextVariableId": "cc357784-13d0-443b-8609-cf01bfe4e151",
+          "nodeType": "ActionNode",
+          "inputParameterVariableIdMap": {
+            "text": "{c86f9165-851e-4f34-ab91-a852fcdab18e}"
+          },
+          "outputExpressionVariableIds": [
+            "6a0799fe-e38e-4810-9928-dea5cc17567d"
+          ],
+          "id": "27b05e3f-b024-49e9-b343-b6d00bfe938a",
+          "defaultTargetNodeId": "4962f858-3941-4bb7-9a23-74845ab62721"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "c86f9165-851e-4f34-ab91-a852fcdab18e",
+          "nodeType": "QuestionNode",
+          "id": "8eff1d62-0f1c-4245-9c1d-54d5122b1f82",
+          "defaultTargetNodeId": "27b05e3f-b024-49e9-b343-b6d00bfe938a"
+        }
+      ],
+      "id": "new_topic_a81d72d5ae684f3ba74d58e01db6dc96",
+      "displayName": "Dialog for T3_StatistikaTrigger",
+      "createdTime": "2021-12-06T22:21:27.1498934Z",
+      "updatedTime": "2021-12-06T22:35:43.5043307Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "..."
+        }
+      },
+      "id": "aa0c6acd-f3ce-40e3-af94-2e4333af5c22",
+      "createdTime": "2021-12-06T22:30:02.026Z",
+      "updatedTime": "2021-12-06T22:30:02.026Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "{6a0799fe-e38e-4810-9928-dea5cc17567d}"
+        }
+      },
+      "id": "359437ba-f917-4601-9f4e-1a9ee215a924",
+      "createdTime": "2021-12-06T22:30:59.875Z",
+      "updatedTime": "2021-12-06T22:30:59.875Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "actionDefinitions": [
+    {
+      "timeoutInSeconds": 60,
+      "retryCount": 1,
+      "method": 2,
+      "headers": {
+        "accept": "application/json"
+      },
+      "bodyContent": "{\"text\":\"{c86f9165-851e-4f34-ab91-a852fcdab18e}\"}",
+      "actionType": "Flow",
+      "flowMetadata": {
+        "id": "be1c9a9a-df56-ec11-8f8f-0022489c86c7",
+        "uniqueId": "75f34828-2c01-4126-9dcf-ded98190b47a",
+        "title": "statistikaCovid",
+        "description": "Call this flow from Power Virtual Agents.",
+        "httpMethod": 2,
+        "inputParameters": [
+          {
+            "name": "statsRec",
+            "id": "text",
+            "type": "String",
+            "optional": false
+          }
+        ],
+        "outputParameters": [
+          {
+            "name": "statsRet",
+            "id": "statsret",
+            "type": "String",
+            "optional": true
+          }
+        ],
+        "outputSchemaType": "Json",
+        "createdTime": "2021-12-06T21:58:12Z",
+        "isEnabled": true,
+        "lastModifiedTime": "2021-12-06T22:06:55Z",
+        "versionNumber": 16276751
+      },
+      "id": "e0e9f29b-0402-4db0-aa54-4752e5080701",
+      "displayName": "statistikaCovid",
+      "description": "Call this flow from Power Virtual Agents.",
+      "createdTime": "2021-12-06T22:30:49.701Z",
+      "updatedTime": "2021-12-06T22:30:49.701Z"
+    }
+  ],
+  "contextVariables": [
+    {
+      "customTypeId": "new_customtype_f12ec12c2249488d831ef1a4c4803d95",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "aa0c6acd-f3ce-40e3-af94-2e4333af5c22"
+        ]
+      },
+      "isGlobal": false,
+      "id": "c86f9165-851e-4f34-ab91-a852fcdab18e",
+      "displayName": "statsVar",
+      "createdTime": "2021-12-06T22:30:02.026Z",
+      "updatedTime": "2021-12-06T22:35:43.5043307Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "customTypeId": "03f86053-0535-4dd4-b2e9-7aff97968b8d",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "e0e9f29b-0402-4db0-aa54-4752e5080701",
+      "isGlobal": false,
+      "id": "cc357784-13d0-443b-8609-cf01bfe4e151",
+      "displayName": "",
+      "createdTime": "2021-12-06T22:30:49.701Z",
+      "updatedTime": "2021-12-06T22:35:43.5043307Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "Expression",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "expression": "@parameters('cc357784-13d0-443b-8609-cf01bfe4e151')['statsret']",
+      "isGlobal": false,
+      "id": "6a0799fe-e38e-4810-9928-dea5cc17567d",
+      "displayName": "statsRet",
+      "createdTime": "2021-12-06T22:30:49.701Z",
+      "updatedTime": "2021-12-06T22:35:43.5043307Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "jsonTypes": [
+    {
+      "customTypeSchema": "Json",
+      "id": "03f86053-0535-4dd4-b2e9-7aff97968b8d",
+      "displayName": "Response Json Type for Flow - statistikaCovid",
+      "createdTime": "2021-12-06T22:30:49.701Z",
+      "updatedTime": "2021-12-06T22:30:49.701Z"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "endUserOverrideName": "Pozdrav",
+      "triggerQueries": [
+        "Ahoj chatbote",
+        "Nazdar",
+        "Čau",
+        "Zdravím",
+        "Ahoj",
+        "Dobrý den"
+      ],
+      "dialogId": "new_topic_3d1ac6e09ba44586a9e5380f91729475",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_3d1ac6e09ba44586a9e5380f91729475",
+      "displayName": "U_Pozdrav",
+      "description": "",
+      "createdTime": "2021-05-13T13:40:57.0184986Z",
+      "updatedTime": "2022-02-05T03:33:33.4785802Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "ec4ef8cf-97af-428b-a024-ea86b2c8c798",
+      "messageNodes": [
+        {
+          "botMessageId": "8ab71cb5-7173-4ff8-860e-1cf216ec0baf",
+          "nodeType": "BotMessageNode",
+          "id": "ec4ef8cf-97af-428b-a024-ea86b2c8c798",
+          "defaultTargetNodeId": "c604ce40-dd24-4c9f-ad79-094e149b213e"
+        },
+        {
+          "botMessageId": "c66c6eec-21e0-46d2-81a2-e33c5c72bb8b",
+          "nodeType": "BotMessageNode",
+          "id": "c604ce40-dd24-4c9f-ad79-094e149b213e"
+        }
+      ],
+      "id": "new_topic_3d1ac6e09ba44586a9e5380f91729475",
+      "displayName": "Dialog for Pozdrav",
+      "createdTime": "2021-05-13T13:40:57.0184986Z",
+      "updatedTime": "2021-12-12T04:07:14.0939073Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Zdravím, jsem Evžen a budu se snažit Vám zodpovědět dotazy týkající se onemocnění COVID-19."
+        }
+      },
+      "id": "8ab71cb5-7173-4ff8-860e-1cf216ec0baf",
+      "createdTime": "2021-05-13T13:40:57.0184986Z",
+      "updatedTime": "2021-05-13T13:40:57.0184986Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "S čím Vám dnes mohu pomoci?\n\n*   Informace o COVID-19\n*   Diagnóza\n*   Statistiky\n*   Kontakty"
+        }
+      },
+      "id": "c66c6eec-21e0-46d2-81a2-e33c5c72bb8b",
+      "createdTime": "2021-05-13T15:31:17.31Z",
+      "updatedTime": "2021-05-13T15:31:17.31Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ]
+}

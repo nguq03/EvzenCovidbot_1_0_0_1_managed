@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "endUserOverrideName": "Šíření",
+      "triggerQueries": [
+        "chytit koronu",
+        "jak můžu chytit covid",
+        "jak se covid přenáší",
+        "jak se přenáší",
+        "šíření nákazy",
+        "přenos covidu",
+        "Jak se covid šíří?"
+      ],
+      "dialogId": "new_topic_d0b69e3d7e9d446f8724c2e2d684c906",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_d0b69e3d7e9d446f8724c2e2d684c906",
+      "displayName": "INFO_Šíření",
+      "description": "",
+      "createdTime": "2021-12-05T01:15:25.8720846Z",
+      "updatedTime": "2022-02-05T03:37:13.8897318Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "828ff3b4-881d-47d5-aaee-71c3b289f65c",
+      "messageNodes": [
+        {
+          "botMessageId": "778641f8-89d2-48e0-a28a-fe81c3e22b3a",
+          "nodeType": "BotMessageNode",
+          "id": "7b756564-29c1-4381-a673-4726f3e396de",
+          "defaultTargetNodeId": "4c5cf178-2b73-4af2-ab35-db9d6b5304f4"
+        },
+        {
+          "botMessageId": "ab19f90a-7f43-4c37-bb09-c26f02ca9d30",
+          "nodeType": "BotMessageNode",
+          "id": "828ff3b4-881d-47d5-aaee-71c3b289f65c",
+          "defaultTargetNodeId": "7b756564-29c1-4381-a673-4726f3e396de"
+        },
+        {
+          "botMessageId": "80c67552-e4e9-4c34-a5f4-7d85b84fdc8e",
+          "nodeType": "BotMessageNode",
+          "id": "4c5cf178-2b73-4af2-ab35-db9d6b5304f4",
+          "defaultTargetNodeId": "0353b1c7-b9e0-4768-a682-620d056d0923"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_fd59455f32ef412cb4280f833c27a8e4",
+          "nodeType": "DialogChangeNode",
+          "id": "0353b1c7-b9e0-4768-a682-620d056d0923"
+        }
+      ],
+      "id": "new_topic_d0b69e3d7e9d446f8724c2e2d684c906",
+      "displayName": "Dialog for INFO - Šíření",
+      "createdTime": "2021-12-05T01:15:25.8720846Z",
+      "updatedTime": "2022-01-30T02:22:17.1331975Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "K nákaze může dojít:\n\n1.  Přímým přenosem vzduchem na vzdálenost 1-1,5m. Rizikové jsou obzvláště uzavřené, přeplněné, špatně větrané a frekventované společné prostory. To zahrnuje restaurace, kluby, kanceláře, fitness centra a spoustu dalších.\n2.  Nepřímou cestou, kdy kapénky zůstávají po kašli, kýchnutí nebo přímém kontaktu na předmětech a površích, například na stole, dveřní klice nebo přídržné tyči v hromadné dopravě. K nákaze nejčastěji dochází, když přijde osoba do kontaktu s kontaminovaným povrchem a následně se dotkne svého nosu, úst nebo očí."
+        }
+      },
+      "id": "778641f8-89d2-48e0-a28a-fe81c3e22b3a",
+      "createdTime": "2021-12-05T01:15:25.8720846Z",
+      "updatedTime": "2021-12-05T01:15:25.8720846Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Hlavním způsobem přenosu onemocnění COVID-19 je blízký kontakt dvou nebo více osob.\n\nPři blízkém kontaktu se vir šíří ústy nebo nosem nakaženého, nejčastěji při kašli, kýchání, mluvení nebo těžkém dýchání.\n\nDo těla se nemoc dostává při kontaktu infikovaných kapének se sliznicí, prostřednictvím nosu a úst, ale i očí."
+        }
+      },
+      "id": "ab19f90a-7f43-4c37-bb09-c26f02ca9d30",
+      "createdTime": "2022-01-30T02:21:48.284Z",
+      "updatedTime": "2022-01-30T02:21:48.284Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Inkubační doba koronaviru se pohybuje v rozpětí od 2 až 14 dní. Většinou se však příznaky projevují do 5-6 dne od kontaktu s nakaženou osobou."
+        }
+      },
+      "id": "80c67552-e4e9-4c34-a5f4-7d85b84fdc8e",
+      "createdTime": "2022-01-30T02:22:10.066Z",
+      "updatedTime": "2022-01-30T02:22:10.066Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ]
+}

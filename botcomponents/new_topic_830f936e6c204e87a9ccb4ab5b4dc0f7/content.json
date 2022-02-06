@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "endUserOverrideName": "Prevence",
+      "triggerQueries": [
+        "čemu se vyhýbat",
+        "čemu se vyhnout",
+        "zabíjí slunce koronavirus",
+        "pomáhá česnek",
+        "můžu se chránit pitím alkoholu",
+        "vyhnout se nakažení",
+        "jak se vyhnout covidu",
+        "opatření před covidem",
+        "mám se vyhýbat lidem",
+        "nejlepší ochrana před covidem",
+        "nejlepší prevence",
+        "nejefektivnější prevence",
+        "prevence před covidem",
+        "nechci být nemocný",
+        "jak si udržet zdraví",
+        "co dělat abych zůstal zdravý",
+        "jak zůstat zdravý",
+        "co mi pomůže před covidovou infekcí",
+        "jak se chránit před covidem",
+        "jak se chránit před koronavirem"
+      ],
+      "dialogId": "new_topic_830f936e6c204e87a9ccb4ab5b4dc0f7",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_830f936e6c204e87a9ccb4ab5b4dc0f7",
+      "displayName": "INFO_Prevence",
+      "description": "",
+      "createdTime": "2021-12-05T01:27:27.1908113Z",
+      "updatedTime": "2022-02-05T03:37:17.7746394Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "d2661cb7-bdc4-43e5-8ea8-5c0b9543ab23",
+      "messageNodes": [
+        {
+          "botMessageId": "d936f2ad-d4d2-45f6-96c2-6c50f9da0778",
+          "nodeType": "BotMessageNode",
+          "id": "d2661cb7-bdc4-43e5-8ea8-5c0b9543ab23",
+          "defaultTargetNodeId": "26b3442a-a71a-4d6b-a33f-6ab6515c7e5e"
+        },
+        {
+          "botMessageId": "58ebe665-c92f-4d2b-ad84-cf6cb027438d",
+          "nodeType": "BotMessageNode",
+          "id": "26b3442a-a71a-4d6b-a33f-6ab6515c7e5e",
+          "defaultTargetNodeId": "4bebfe37-b0a3-4fee-a8b5-f3d1eeb0a2e1"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_fd59455f32ef412cb4280f833c27a8e4",
+          "nodeType": "DialogChangeNode",
+          "id": "4bebfe37-b0a3-4fee-a8b5-f3d1eeb0a2e1"
+        }
+      ],
+      "id": "new_topic_830f936e6c204e87a9ccb4ab5b4dc0f7",
+      "displayName": "Dialog for INFO - Prevence",
+      "createdTime": "2021-12-05T01:27:27.1908113Z",
+      "updatedTime": "2022-01-30T02:28:09.3858734Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Chraňte se před COVID-19**!\n\n*   Myjte si často ruce. Používejte mýdlo a vodu, nebo dezinfekci na bázi alkoholu.\n*   Udržujte bezpečnou vzdálenost od ostatních (alespoň 1-2m) i v případě, že se nezdají být nemocní.\n*   Pokud vám není dobře, zůstaňte doma.\n*   Vyhýbejte se dotýkání nosu, úst a očí.\n*   Noste roušky nebo respirátory.\n*   Při kašli nebo kýchnutí si zakryjte nos a ústa ohnutým loktem nebo kapesníkem.\n*   Vyhýbejte se přeplněným a frekventovaným místům. Vybírejte si otevřené, dobře větrané prostory."
+        }
+      },
+      "id": "d936f2ad-d4d2-45f6-96c2-6c50f9da0778",
+      "createdTime": "2021-12-05T01:27:27.1908113Z",
+      "updatedTime": "2021-12-05T01:27:27.1908113Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Pokud pociťujete příznaky jako například kašel, horečky a dýchací potíže:**\n\n1.  Vyhledejte v blízké době lékařskou pomoc, nejdříve však telefonicky.\n2.  Měřte si pravidelně teplotu a pečlivě sledujte vývoj příznaků."
+        }
+      },
+      "id": "58ebe665-c92f-4d2b-ad84-cf6cb027438d",
+      "createdTime": "2022-01-30T02:23:29.507Z",
+      "updatedTime": "2022-01-30T02:23:29.507Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ]
+}

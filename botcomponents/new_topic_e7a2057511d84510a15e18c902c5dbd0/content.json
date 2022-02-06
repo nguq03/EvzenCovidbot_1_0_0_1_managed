@@ -1,0 +1,162 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "jak vytvořit imunitu",
+        "imunita",
+        "novavax",
+        "johnson and johnson",
+        "johnson & johnson",
+        "johnson",
+        "astrazeneca",
+        "moderna",
+        "pfizer",
+        "proč se nechat očkovat",
+        "bezpečnost očkování",
+        "jsou vakcíny bezpečné",
+        "chci se nechat očkovat",
+        "očkovat",
+        "vakcinace",
+        "vakcína",
+        "očkování"
+      ],
+      "dialogId": "new_topic_e7a2057511d84510a15e18c902c5dbd0",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_e7a2057511d84510a15e18c902c5dbd0",
+      "displayName": "INFO_Očkování",
+      "description": "",
+      "createdTime": "2021-12-05T16:07:01.0640352Z",
+      "updatedTime": "2022-02-05T03:37:27.1964808Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "cfde46a1-dba8-4854-ac95-491635996758",
+      "messageNodes": [
+        {
+          "botMessageId": "4e8220a9-9f89-47d0-a14f-8a32d881f9bb",
+          "nodeType": "BotMessageNode",
+          "id": "cfde46a1-dba8-4854-ac95-491635996758",
+          "defaultTargetNodeId": "3a79161e-792d-4da2-bd24-ea5b374ae733"
+        },
+        {
+          "botMessageId": "833de400-6303-4bdf-80e8-3f7f44f6e26b",
+          "nodeType": "BotMessageNode",
+          "id": "3a79161e-792d-4da2-bd24-ea5b374ae733",
+          "defaultTargetNodeId": "4432afd7-5c4c-47be-b8de-215b9c4e9413"
+        },
+        {
+          "botMessageId": "8ff33f89-2fac-4dce-995e-f4bc6c05982b",
+          "nodeType": "BotMessageNode",
+          "id": "4432afd7-5c4c-47be-b8de-215b9c4e9413",
+          "defaultTargetNodeId": "e1d36322-04c0-4f51-9163-65d87b8618fa"
+        },
+        {
+          "botMessageId": "0fbd91c2-4e63-4c30-90b6-bcf3cd0cdcc0",
+          "nodeType": "BotMessageNode",
+          "id": "e1d36322-04c0-4f51-9163-65d87b8618fa",
+          "defaultTargetNodeId": "90e94ca9-788b-440f-ab25-8b16320fde83"
+        },
+        {
+          "botMessageId": "9d023253-2675-4588-8b82-54c6027ab0a5",
+          "nodeType": "BotMessageNode",
+          "id": "90e94ca9-788b-440f-ab25-8b16320fde83",
+          "defaultTargetNodeId": "d9f74773-9631-480b-a65e-b7334086b809"
+        },
+        {
+          "botMessageId": "0b5830a1-85b5-494a-b3d6-30f6339b23a9",
+          "nodeType": "BotMessageNode",
+          "id": "d9f74773-9631-480b-a65e-b7334086b809"
+        }
+      ],
+      "id": "new_topic_e7a2057511d84510a15e18c902c5dbd0",
+      "displayName": "Dialog for INFO_Očkování",
+      "createdTime": "2021-12-05T16:07:01.0640352Z",
+      "updatedTime": "2022-02-05T02:34:25.4192621Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Vakcinace proti nemoci COVID-19 je v současné chvíli nejefektivnější způsob, jak dlouhodobě zastavit šíření koronaviru u nás i ve světě. U vakcinace je důležité dosáhnout tzv. kolektivní imunity, která nastává při naočkování většiny populace, což snižuje šanci na přenos nemoci mezi jednotlivci. Výsledná kolektivní imunita chrání očkované i neočkované jedince."
+        }
+      },
+      "id": "4e8220a9-9f89-47d0-a14f-8a32d881f9bb",
+      "createdTime": "2021-12-05T16:07:01.0640352Z",
+      "updatedTime": "2021-12-05T16:07:01.0640352Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Jak vakcíny fungují?**\n\nVakcíny brání vzniku onemocnění koronaviru tím, že proti tomuto viru vyvolávají imunitní odpověď. Tělo se díky vakcíně naučí virus rozpoznat a vyvolat odpovídající imunitní reakci, dřív než stihne virus vyvolat onemocnění."
+        }
+      },
+      "id": "833de400-6303-4bdf-80e8-3f7f44f6e26b",
+      "createdTime": "2022-02-04T21:30:27.505Z",
+      "updatedTime": "2022-02-04T21:30:27.505Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Účinnost vakcinace**\n\nK nejefektivnější ochraně před onemocněním COVID-19 dochází až několik týdnů po kompletní vakcinaci. V případě dvoudávkových vakcín to znamená 2-4 týdny po obdržení druhé dávky.  \nOčkování proti onemocnění COVID-19 je vysoce účinné, v méně častých případech však mohou onemocnět i očkovaní, kdy vakcína chrání před těžkým průběhem onemocnění. Hrozí také přenos viru na neočkovanou osobu. I po obdržení obou dávek by se proto měla nadále dodržovat základní opatření v zájmu ochrany svého okolí."
+        }
+      },
+      "id": "8ff33f89-2fac-4dce-995e-f4bc6c05982b",
+      "createdTime": "2022-02-05T02:17:49.757Z",
+      "updatedTime": "2022-02-05T02:17:49.757Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Bezpečnost vakcín**\n\nVakcíny jsou bezpečné. Statisticky je bezpečnější se nechat naočkovat, než riskovat průběh nemoci.  \nJiné vakcíny, například proti tuberkulóze, žloutence typu B a dětské obrně, jsou běžně užívány již desítky let a ročně se proti široké škále nemocí nechají očkovat miliony lidí.\n\nRychlý vývoj vakcín umožnila předchozí zkušenost vědců, kteří se zaměřili na výzkum různých druhů koronavirů a vývoj vakcín proti SARS a MERS. Do vývoje vakcín proti covidu-19 se pak zapojili vědci z celého světa s mimořádným nasazením. Všechny vakcíny ale musely projít standardními třemi fázemi klinických hodnocení:\n\n*   fází I, kdy se vyhodnocuje bezpečnost vakcíny a schopnost generovat odpověď imunitního systému v malé skupině lidí,\n*   fází II, kdy se určuje správné dávkování při testování větší skupiny lidí,\n*   fází III, kdy se testují tisíce lidí a analyzuje se bezpečnost a účinnost léku."
+        }
+      },
+      "id": "0fbd91c2-4e63-4c30-90b6-bcf3cd0cdcc0",
+      "createdTime": "2022-02-05T02:29:50.828Z",
+      "updatedTime": "2022-02-05T02:29:50.828Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Vedlejší účinky**\n\nPo očkování se může objevit bolest hlavy, únava nebo například bolest svalů.   \nNení se čeho bát, nejedná se o příznaky nemoci. Očkováním se naše tělo a imunitní systém učí, jak bojovat s nemocí, proti které vakcína chrání. Tohle učení s sebou přináší i výše zmíněné nepříjemnosti."
+        }
+      },
+      "id": "9d023253-2675-4588-8b82-54c6027ab0a5",
+      "createdTime": "2022-02-05T02:30:17.997Z",
+      "updatedTime": "2022-02-05T02:30:17.997Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Doporučuji se v zájmu bezpečnosti očkovat. Očkovat se můžete například na kterémkoliv z očkovacích míst uvedených [zde](https://ockoreport.uzis.cz/).\n\nV rámci očkování lze po registraci předem [rezervovat termín.](https://registrace.mzcr.cz/)"
+        }
+      },
+      "id": "0b5830a1-85b5-494a-b3d6-30f6339b23a9",
+      "createdTime": "2022-02-05T02:31:01.411Z",
+      "updatedTime": "2022-02-05T02:31:01.411Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ]
+}

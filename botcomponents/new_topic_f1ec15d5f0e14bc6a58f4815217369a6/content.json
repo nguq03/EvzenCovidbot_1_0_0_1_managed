@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "endUserOverrideName": "Karanténa",
+      "triggerQueries": [
+        "co bych měl dělat při domácí karanténě",
+        "co dělat doma",
+        "co je domácí karanténa",
+        "jak dlouho zůstat s příznaky v karanténě",
+        "zůstat doma kvůli karanténě",
+        "jak dlouho mám zůstat doma",
+        "jak dlouho trvá karanténa",
+        "mám domácí karanténu",
+        "karanténa"
+      ],
+      "dialogId": "new_topic_f1ec15d5f0e14bc6a58f4815217369a6",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_f1ec15d5f0e14bc6a58f4815217369a6",
+      "displayName": "INFO - Karanténa",
+      "description": "",
+      "createdTime": "2021-12-05T01:40:09.4291283Z",
+      "updatedTime": "2022-02-05T03:37:21.1630953Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "ae924fbe-8175-4a24-a62d-63d85a90a0c1",
+      "messageNodes": [
+        {
+          "botMessageId": "78e9b33c-1ff4-4d63-8c4b-955804587a1d",
+          "nodeType": "BotMessageNode",
+          "id": "ae924fbe-8175-4a24-a62d-63d85a90a0c1",
+          "defaultTargetNodeId": "11b5e8a0-bfee-4437-8663-6e51e6faa8e1"
+        },
+        {
+          "botMessageId": "79ee2007-d461-4e9f-b0df-215799bd8eab",
+          "nodeType": "BotMessageNode",
+          "id": "11b5e8a0-bfee-4437-8663-6e51e6faa8e1",
+          "defaultTargetNodeId": "fcc3b1b3-8043-49d1-9a1a-e4d7c36a7ab5"
+        },
+        {
+          "botMessageId": "dc857911-96d0-4254-8c71-9c835a9c40c1",
+          "nodeType": "BotMessageNode",
+          "id": "fcc3b1b3-8043-49d1-9a1a-e4d7c36a7ab5"
+        }
+      ],
+      "id": "new_topic_f1ec15d5f0e14bc6a58f4815217369a6",
+      "displayName": "Dialog for INFO - Karanténa",
+      "createdTime": "2021-12-05T01:40:09.4291283Z",
+      "updatedTime": "2022-01-31T11:50:45.9677184Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Jaký je rozdíl mezi izolací a karanténou?**\n\nKaranténa i izolace jsou nástroje, které mají zamezit šíření nakažlivé nemoci. Rozdíl je v tom, že v izolaci jsou osoby už nakažené. Karanténa ale slouží k oddělení osob, u nichž je na nákazu podezření, ale ještě nebyla prokázána ani vyvrácena."
+        }
+      },
+      "id": "78e9b33c-1ff4-4d63-8c4b-955804587a1d",
+      "createdTime": "2021-12-05T01:40:09.4135668Z",
+      "updatedTime": "2021-12-05T01:40:09.4135668Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Jak se ocitnu v karanténě?**\n\nV karanténě se ocitnete, pokud jste byli v rizikovém kontaktu s člověkem pozitivně testovaným na onemocnění covid-19. Karanténa je povinná a většinou probíhá u vás doma nebo např. na chatě."
+        }
+      },
+      "id": "79ee2007-d461-4e9f-b0df-215799bd8eab",
+      "createdTime": "2022-01-31T11:48:36.458Z",
+      "updatedTime": "2022-01-31T11:48:36.458Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Karanténu nařizuje pracovník příslušné krajské hygienické stanice či speciální trasovací callcentrum.\n\nPřípadů nákazy je ale velké množství a než se k Vám trasovací centrum či hygiena dovolá, můžete už být infekční. Proto pokud je někdo ve Vašem okolí testován pozitivně a Vy jste s ním byli v rizikovém kontaktu, buďte, prosím, ohleduplní a zůstaňte v karanténě dobrovolně."
+        }
+      },
+      "id": "dc857911-96d0-4254-8c71-9c835a9c40c1",
+      "createdTime": "2022-01-31T11:48:56.289Z",
+      "updatedTime": "2022-01-31T11:48:56.289Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ]
+}

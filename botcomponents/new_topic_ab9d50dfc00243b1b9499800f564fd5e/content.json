@@ -1,0 +1,61 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "skvělý, děkuju",
+        "Super, děkuju",
+        "děkuji vám",
+        "děkuju vám",
+        "děkuju ti",
+        "díky moc",
+        "moc díky",
+        "děkuju",
+        "děkuji ti",
+        "děkuji",
+        "díky"
+      ],
+      "dialogId": "new_topic_ab9d50dfc00243b1b9499800f564fd5e",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_ab9d50dfc00243b1b9499800f564fd5e",
+      "displayName": "Poděkování",
+      "description": "",
+      "createdTime": "2021-05-13T15:54:12.2929094Z",
+      "updatedTime": "2022-02-05T03:33:19.2995887Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "fc3b4a24-9462-4930-bad6-867705f3b230",
+      "messageNodes": [
+        {
+          "botMessageId": "53302b0f-69f3-419f-b3f7-397bce75339d",
+          "nodeType": "BotMessageNode",
+          "id": "fc3b4a24-9462-4930-bad6-867705f3b230"
+        }
+      ],
+      "id": "new_topic_ab9d50dfc00243b1b9499800f564fd5e",
+      "displayName": "Dialog for Poděkování",
+      "createdTime": "2021-05-13T15:54:12.2929094Z",
+      "updatedTime": "2021-05-13T15:54:41.7990342Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Rádo se stalo. Jsem rád, že jsem pomohl."
+        }
+      },
+      "id": "53302b0f-69f3-419f-b3f7-397bce75339d",
+      "createdTime": "2021-05-13T15:54:12.2929094Z",
+      "updatedTime": "2021-05-13T15:54:12.2929094Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ]
+}

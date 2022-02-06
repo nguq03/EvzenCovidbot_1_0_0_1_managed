@@ -1,0 +1,66 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "co víš o koronaviru",
+        "co je koronavirus",
+        "co víš o covid-19",
+        "co je covid-19",
+        "informace o covidu",
+        "řekni mi něco o covidu",
+        "co víš o covidu",
+        "co je covid"
+      ],
+      "dialogId": "new_topic_f7c79cab885b4f4e9fdabfa8003b8e15",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_f7c79cab885b4f4e9fdabfa8003b8e15",
+      "displayName": "INFO_Co je covid",
+      "description": "",
+      "createdTime": "2021-12-05T01:11:24.9613494Z",
+      "updatedTime": "2022-02-05T03:37:06.6084795Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "634ebd65-6494-4bb4-86cc-eb7d24011170",
+      "messageNodes": [
+        {
+          "botMessageId": "bd971e75-7d40-4b40-afb6-a47f47e99e7f",
+          "nodeType": "BotMessageNode",
+          "id": "634ebd65-6494-4bb4-86cc-eb7d24011170",
+          "defaultTargetNodeId": "42513c45-5b9f-4e5f-a60d-09c9eb535779"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_fd59455f32ef412cb4280f833c27a8e4",
+          "nodeType": "DialogChangeNode",
+          "id": "42513c45-5b9f-4e5f-a60d-09c9eb535779"
+        }
+      ],
+      "id": "new_topic_f7c79cab885b4f4e9fdabfa8003b8e15",
+      "displayName": "Dialog for INFO - Co je covid",
+      "createdTime": "2021-12-05T01:11:24.9613494Z",
+      "updatedTime": "2021-12-08T13:31:11.82829Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**COVID-19** z anglického spojení coronavirus disease 2019, česky koronavirové onemocnění 2019; je vysoce infekční onemocnění, které je způsobeno koronavirem SARS-CoV-2. První případ byl identifikován v čínském Wu-chanu v prosinci 2019."
+        }
+      },
+      "id": "bd971e75-7d40-4b40-afb6-a47f47e99e7f",
+      "createdTime": "2021-12-05T01:11:24.9613494Z",
+      "updatedTime": "2021-12-05T01:11:24.9613494Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ]
+}

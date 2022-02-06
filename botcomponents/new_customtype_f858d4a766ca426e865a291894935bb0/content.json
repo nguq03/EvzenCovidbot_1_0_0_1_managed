@@ -1,0 +1,173 @@
+{
+  "namedEntities": [
+    {
+      "synonyms": [
+        "kašlíček",
+        "kašlu"
+      ],
+      "id": "846fe734-27da-4439-9033-dd060fd4730c",
+      "displayName": "Kašel",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "teplota",
+        "čtyřicítky",
+        "Teploty"
+      ],
+      "id": "ba50f4a5-dc69-44e9-851e-e00522df1831",
+      "displayName": "Horečka",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "vysílený",
+        "vysílená",
+        "unavená",
+        "unavený"
+      ],
+      "id": "57c25457-a0c9-4b64-baff-5815e77b05e3",
+      "displayName": "Únava",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "všechno bolí",
+        "bolesti"
+      ],
+      "id": "0bd38f63-9260-4ae0-8b9e-4cfb1f420071",
+      "displayName": "Bolest",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "id": "d2d71afc-f4ee-4563-96d5-e7d178d5c098",
+      "displayName": "Průjem",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "ztratil jsem čich",
+        "nic necítím",
+        "Ztráta čichu"
+      ],
+      "id": "ce9a2f09-cbc5-4739-8e68-71f43d0bba41",
+      "displayName": "Ztráta chuti",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "id": "fcda309b-49aa-4102-9a51-b78b2c7436db",
+      "displayName": "Vyrážka",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Cítím tlak na hrudi"
+      ],
+      "id": "4026b4d3-916a-4698-b5c4-b2074f59b3ca",
+      "displayName": "Tlak na hrudi",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "špatně se mi dýchá",
+        "dýchací obtíže",
+        "obtíže s dechem"
+      ],
+      "id": "27c26c3c-6403-46c0-b826-a76ee88b1513",
+      "displayName": "Dušnost",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "nemůžu se hýbat"
+      ],
+      "id": "dd94dd35-c5b8-4d3d-93c3-71f1b5b9c4bf",
+      "displayName": "Neschopnost pohybu",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "neschopna řeči",
+        "neschopen řeči",
+        "nemůžu mluvit"
+      ],
+      "id": "4ba1762b-9a11-4342-8460-17e94dc1d8b8",
+      "displayName": "Ztráta řeči",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "škrábe v krku",
+        "bolest krku",
+        "bolí mě v krku"
+      ],
+      "id": "85c235cb-0ac9-4f4c-b724-dd7c254f331a",
+      "displayName": "Bolest v krku",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z",
+  "closedListTypes": [
+    {
+      "namedEntities": [
+        "846fe734-27da-4439-9033-dd060fd4730c",
+        "ba50f4a5-dc69-44e9-851e-e00522df1831",
+        "57c25457-a0c9-4b64-baff-5815e77b05e3",
+        "0bd38f63-9260-4ae0-8b9e-4cfb1f420071",
+        "d2d71afc-f4ee-4563-96d5-e7d178d5c098",
+        "ce9a2f09-cbc5-4739-8e68-71f43d0bba41",
+        "fcda309b-49aa-4102-9a51-b78b2c7436db",
+        "4026b4d3-916a-4698-b5c4-b2074f59b3ca",
+        "27c26c3c-6403-46c0-b826-a76ee88b1513",
+        "dd94dd35-c5b8-4d3d-93c3-71f1b5b9c4bf",
+        "4ba1762b-9a11-4342-8460-17e94dc1d8b8",
+        "85c235cb-0ac9-4f4c-b724-dd7c254f331a"
+      ],
+      "smartMatchingEnabled": true,
+      "customTypeSchema": "ClosedList",
+      "id": "new_customtype_f858d4a766ca426e865a291894935bb0",
+      "displayName": "Příznaky",
+      "description": "",
+      "createdTime": "2021-05-27T23:00:27.6930146Z",
+      "updatedTime": "2021-05-27T23:00:27.6930146Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ]
+}

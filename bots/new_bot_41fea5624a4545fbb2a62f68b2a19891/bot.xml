@@ -1,0 +1,8 @@
+<bot schemaname="new_bot_41fea5624a4545fbb2a62f68b2a19891">
+  <authenticationmode>1</authenticationmode>
+  <authenticationtrigger>0</authenticationtrigger>
+  <iscustomizable>1</iscustomizable>
+  <language>1033</language>
+  <name>covidbot</name>
+  <timezoneruleversionnumber>4</timezoneruleversionnumber>
+</bot>

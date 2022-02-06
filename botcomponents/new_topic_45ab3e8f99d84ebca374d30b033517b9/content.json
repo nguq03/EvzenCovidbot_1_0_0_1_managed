@@ -1,0 +1,93 @@
+{
+  "intents": [
+    {
+      "endUserOverrideName": "Příznaky",
+      "triggerQueries": [
+        "jaký jsou příznaky covidu?",
+        "jaké jsou příznaky covidu?",
+        "příznaky",
+        "pociťuju příznaky",
+        "pociťuji malátnost",
+        "jsem malátný",
+        "jsem unavený",
+        "cítím se špatně",
+        "je mi zle",
+        "příznaky onemocnění",
+        "jaké příznaky jsou typické pro covid",
+        "jaké jsou příznaky covidu",
+        "bolí mě hlava",
+        "škrábe mě v krku",
+        "měl bych se jít otestovat s kašlem?",
+        "můj přítel má teplotu",
+        "moje přítelkyně kašle",
+        "moje manželka má příznaky",
+        "můj manžel má příznaky",
+        "mám příznaky",
+        "příznaky covidu",
+        "myslím si že mám covid",
+        "mám pocit že mám covid",
+        "kašlu a mám teplotu",
+        "kašlu",
+        "bolí mě v krku",
+        "mám teploty",
+        "mám teplotu",
+        "mám horečku",
+        "špatně se mi dýchá",
+        "jak poznám že mám koronu",
+        "jak poznám že mám covid",
+        "mám covid?",
+        "jsem nemocný?"
+      ],
+      "dialogId": "new_topic_45ab3e8f99d84ebca374d30b033517b9",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_45ab3e8f99d84ebca374d30b033517b9",
+      "displayName": "INFO_Příznaky",
+      "description": "",
+      "createdTime": "2021-12-05T01:29:33.5073699Z",
+      "updatedTime": "2022-02-05T03:37:10.6484875Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "b2f75f4b-a8d9-4efb-b9d9-bf2c304f9c71",
+      "messageNodes": [
+        {
+          "botMessageId": "825fa32a-8339-4660-9986-0daee4cb33cf",
+          "nodeType": "BotMessageNode",
+          "id": "b2f75f4b-a8d9-4efb-b9d9-bf2c304f9c71",
+          "defaultTargetNodeId": "3589392d-9a28-4822-b350-b5867f655ecf"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_fd59455f32ef412cb4280f833c27a8e4",
+          "nodeType": "DialogChangeNode",
+          "id": "3589392d-9a28-4822-b350-b5867f655ecf"
+        }
+      ],
+      "id": "new_topic_45ab3e8f99d84ebca374d30b033517b9",
+      "displayName": "Dialog for INFO - Příznaky",
+      "createdTime": "2021-12-05T01:29:33.5073699Z",
+      "updatedTime": "2021-12-08T13:36:39.6804322Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Mezi obvyklé příznaky onemocnění patří:\n\n*   Teplota 37,3°C a více\n*   Kašel\n*   Obtíže s dýcháním\n*   Bolesti v krku, hlavy, zad, svalů nebo kloubů\n*   Ztráta čichu / chuti\n*   Únava\n*   Průjem\n*   Nevolnost\n*   Rýma\n*   U dětí se mohou vyskytnout tzv. \"covidové prsty\"\n\nInkubační doba koronaviru se pohybuje v rozpětí od 2 až 14 dní. Většinou se však příznaky projevují do 5-6 dne od kontaktu s nakaženou osobou.\n\nPři výskytu příznaků onemocnění COVID-19 **kontaktujte telefonicky vašeho praktického lékaře, postupujte podle jeho instrukcí** a **zůstaňte** **doma**.\n\nPokud nemáte ani jeden z těchto příznaku, nejedná se pravděpodobně o koronavirus. **Zachovejte klid, průběžně sledujte svůj zdravotní stav** a dvakrát denně si měřte teplotu.\n\nPokud máte jiné neodkladné zdravotní problémy, obraťte se na svého lékaře.\n\nPokud by se váš stav dramaticky zhoršil, kontaktujte záchrannou službu na lince 155."
+        }
+      },
+      "id": "825fa32a-8339-4660-9986-0daee4cb33cf",
+      "createdTime": "2021-12-05T01:29:33.5073699Z",
+      "updatedTime": "2021-12-05T01:29:33.5073699Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ]
+}

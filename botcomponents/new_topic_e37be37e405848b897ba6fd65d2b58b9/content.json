@@ -1,0 +1,55 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "nechť se naše cesty znovu zkříží",
+        "papa",
+        "měj se krásně",
+        "měj se",
+        "nashledanou"
+      ],
+      "dialogId": "new_topic_e37be37e405848b897ba6fd65d2b58b9",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_e37be37e405848b897ba6fd65d2b58b9",
+      "displayName": "U_Rozloučení",
+      "description": "",
+      "createdTime": "2021-05-13T15:35:24.6795644Z",
+      "updatedTime": "2022-02-05T03:33:29.4350505Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "2f86f37a-9d9d-45ba-9b60-9432b9640716",
+      "messageNodes": [
+        {
+          "botMessageId": "ce03f5c4-2785-491b-82cc-e114a1e2a122",
+          "nodeType": "BotMessageNode",
+          "id": "2f86f37a-9d9d-45ba-9b60-9432b9640716"
+        }
+      ],
+      "id": "new_topic_e37be37e405848b897ba6fd65d2b58b9",
+      "displayName": "Dialog for Rozloučení",
+      "createdTime": "2021-05-13T15:35:24.6795644Z",
+      "updatedTime": "2021-05-13T15:36:34.6105181Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Díky, že jste si se mnou popovídali. Nashledanou!"
+        }
+      },
+      "id": "ce03f5c4-2785-491b-82cc-e114a1e2a122",
+      "createdTime": "2021-05-13T15:35:24.6785652Z",
+      "updatedTime": "2021-05-13T15:35:24.6785652Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ]
+}

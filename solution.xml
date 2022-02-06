@@ -1,0 +1,109 @@
+<ImportExportXml version="9.2.21123.172" SolutionPackageVersion="9.2" languagecode="1029" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>EvzenCovidbot</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Evzen Covidbot" languagecode="1029" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.1</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>Craa758</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="CDS Default Publisher" languagecode="1029" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>cr1ed</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>57241</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="29" id="{1d649cdf-0856-ec11-8f8f-0022489c86c7}" behavior="0" />
+      <RootComponent type="29" id="{3bada53f-2159-ec11-8f8f-0022489c86c7}" behavior="0" />
+      <RootComponent type="29" id="{92363d7e-e45a-ec11-8f8f-0022489c86c7}" behavior="0" />
+      <RootComponent type="29" id="{be1c9a9a-df56-ec11-8f8f-0022489c86c7}" behavior="0" />
+      <RootComponent type="29" id="{f14a78de-31c8-eb11-bacc-000d3ab10cd6}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="cr1ed_sharedcognitiveservicesqnamaker_dd9e9" solution="Active" id.connectionreferencelogicalname="cr1ed_sharedcognitiveservicesqnamaker_dd9e9" />
+        <Dependent type="29" displayName="qaFlow" id="{92363d7e-e45a-ec11-8f8f-0022489c86c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="cr1ed_sharedsendmail_ffebb" solution="Active" id.connectionreferencelogicalname="cr1ed_sharedsendmail_ffebb" />
+        <Dependent type="29" displayName="unrecognizedPhrase" id="{1d649cdf-0856-ec11-8f8f-0022489c86c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="cr1ed_sharedsql_48ffd" solution="Active" id.connectionreferencelogicalname="cr1ed_sharedsql_48ffd" />
+        <Dependent type="29" displayName="contactFlow" id="{3bada53f-2159-ec11-8f8f-0022489c86c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="cr1ed_sharedsql_558fe" solution="Active" id.connectionreferencelogicalname="cr1ed_sharedsql_558fe" />
+        <Dependent type="29" displayName="statistikaFlow" id="{be1c9a9a-df56-ec11-8f8f-0022489c86c7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="new_sharedteams_272c5" solution="Active" id.connectionreferencelogicalname="new_sharedteams_272c5" />
+        <Dependent type="29" displayName="unrecognizedPhrase" id="{1d649cdf-0856-ec11-8f8f-0022489c86c7}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

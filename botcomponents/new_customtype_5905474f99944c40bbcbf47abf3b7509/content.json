@@ -1,0 +1,88 @@
+{
+  "namedEntities": [
+    {
+      "synonyms": [
+        "Dresden",
+        "Drážďany",
+        "Berlín"
+      ],
+      "id": "b4dff391-a0d7-4ca1-ae92-cddec1549dff",
+      "displayName": "Německo",
+      "createdTime": "2021-05-26T22:57:38.6769833Z",
+      "updatedTime": "2021-05-27T23:01:51.2509637Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Krakov",
+        "Varšava"
+      ],
+      "id": "3891ceca-4ae2-4b9d-8ba4-1d2be0f64806",
+      "displayName": "Polsko",
+      "createdTime": "2021-05-26T22:57:38.6769833Z",
+      "updatedTime": "2021-05-27T23:01:51.2509637Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Žilina",
+        "Košice",
+        "Bratislava"
+      ],
+      "id": "c557691b-bcdf-46f3-b407-ea2a667ea187",
+      "displayName": "Slovensko",
+      "createdTime": "2021-05-26T22:57:38.6769833Z",
+      "updatedTime": "2021-05-27T23:01:51.2509637Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "Linec",
+        "Vídeň"
+      ],
+      "id": "22f125b4-7f4a-4929-a7ea-29baf10ca948",
+      "displayName": "Rakousko",
+      "createdTime": "2021-05-26T22:57:38.6769833Z",
+      "updatedTime": "2021-05-27T23:01:51.2509637Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "morava",
+        "česko",
+        "čechy"
+      ],
+      "id": "29844477-85d3-4969-aeaf-ee76a496d104",
+      "displayName": "Česká republika",
+      "createdTime": "2021-05-26T22:57:38.6769833Z",
+      "updatedTime": "2021-05-27T23:01:51.2509637Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "createdUtc": "0001-01-01T00:00:00Z",
+  "closedListTypes": [
+    {
+      "namedEntities": [
+        "b4dff391-a0d7-4ca1-ae92-cddec1549dff",
+        "3891ceca-4ae2-4b9d-8ba4-1d2be0f64806",
+        "c557691b-bcdf-46f3-b407-ea2a667ea187",
+        "22f125b4-7f4a-4929-a7ea-29baf10ca948",
+        "29844477-85d3-4969-aeaf-ee76a496d104"
+      ],
+      "smartMatchingEnabled": true,
+      "customTypeSchema": "ClosedList",
+      "id": "new_customtype_5905474f99944c40bbcbf47abf3b7509",
+      "displayName": "Země",
+      "description": "",
+      "createdTime": "2021-05-26T22:57:38.6769833Z",
+      "updatedTime": "2021-05-27T23:01:51.2509637Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ]
+}

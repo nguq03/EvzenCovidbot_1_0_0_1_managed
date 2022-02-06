@@ -1,0 +1,121 @@
+{
+  "intents": [
+    {
+      "systemIntentTypes": [
+        "TalkToAgent",
+        "ExpectedEscalation"
+      ],
+      "intentType": "System",
+      "triggerQueries": [
+        "Talk to agent",
+        "Talk to a person",
+        "Talk to someone",
+        "Call back",
+        "Call customer service",
+        "Call me please",
+        "Call support",
+        "Call technical support",
+        "Call was discontinued with support",
+        "Can an agent call me",
+        "Can I call",
+        "Can I connect to my previous agent",
+        "Can I get a number",
+        "Can I get in touch with someone else",
+        "Can I get real agent support",
+        "Can I get transferred to a person to call",
+        "Can I have a call in number Or can I be called",
+        "Can I have a representative call me",
+        "Can I schedule a call",
+        "Can I speak to a representative",
+        "Can I talk to a human",
+        "Can I talk to a human assistant",
+        "Can someone call me",
+        "Can u provide me a customer support to discuss about technical issue",
+        "Cannot contact the support contact number listed",
+        "Chat with a human",
+        "Chat with a representative",
+        "Chat with agent",
+        "Chat with someone please",
+        "Chat with support",
+        "Connect me to a live agent",
+        "Connect me to a person",
+        "Contact a person",
+        "Contact agent",
+        "Contact customer support",
+        "Contact number",
+        "Contact someone",
+        "Contact with human",
+        "Could some one contact me by phone",
+        "Customer agent",
+        "Customer representative",
+        "Customer service",
+        "Got disconnected from help chat with a person",
+        "Hello, I want to rejoin to chat with expert",
+        "I disconnect from live agent, please reconnect me to him",
+        "I have lost contact with live chat support, can you reconnect me",
+        "I need a customer service number",
+        "I need a manager to contact me",
+        "I need customer service",
+        "I need help from a person",
+        "I need phone number",
+        "I need tech assistance",
+        "I need technical support",
+        "I need to have a live chat session",
+        "I need to reconnect to a support chat",
+        "I need to speak with a live argent",
+        "I need to talk to a specialist please",
+        "I want to talk to customer service",
+        "I want to proceed with live support",
+        "I want to speak with a consultant",
+        "I want to talk to Enforcement",
+        "I want to speak with a live tech",
+        "I would like to speak with an associate",
+        "I would like to talk to a technician",
+        "Talk with tech support member"
+      ],
+      "dialogId": "new_topic_41fea5624a4545fbb2a62f68b2a19891_954135cafcd647eaae5999ad91fc08cf_talktoagent",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_41fea5624a4545fbb2a62f68b2a19891_954135cafcd647eaae5999ad91fc08cf_talktoagent",
+      "displayName": "Escalate",
+      "description": "System Intent Escalate",
+      "createdTime": "2019-01-15T00:00:00Z",
+      "updatedTime": "2021-12-12T01:50:15.1772223Z",
+      "createdUserId": "user0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "1ef6b949-b4bc-4b02-a939-761c47adcceb",
+      "dialogType": "System",
+      "messageNodes": [
+        {
+          "botMessageId": "c474c204-af61-4252-9b5c-348284e0d7b0",
+          "nodeType": "BotMessageNode",
+          "id": "1ef6b949-b4bc-4b02-a939-761c47adcceb"
+        }
+      ],
+      "id": "new_topic_41fea5624a4545fbb2a62f68b2a19891_954135cafcd647eaae5999ad91fc08cf_talktoagent",
+      "displayName": "Dialog",
+      "createdTime": "2019-01-15T00:00:00Z",
+      "updatedTime": "2021-12-12T01:50:15.1772223Z",
+      "createdUserId": "user0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Omlouvám se, tohle neumím zodpovědět."
+        }
+      },
+      "id": "c474c204-af61-4252-9b5c-348284e0d7b0",
+      "createdTime": "2021-12-10T00:31:40.779Z",
+      "updatedTime": "2021-12-10T00:31:40.779Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ]
+}

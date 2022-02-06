@@ -1,0 +1,1317 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "chci diagnostiku",
+        "diagnostika",
+        "proved diagnozu",
+        "chci diagnozu",
+        "diagnozu",
+        "diagnoza",
+        "necítím se dobře",
+        "mám koronavirus?",
+        "asi jsem chytil covid",
+        "pocituji příznaky",
+        "Mám covid?",
+        "Chci se diagnostikovat"
+      ],
+      "dialogId": "new_topic_a388b764f4de45d492d202d5a156a6b4",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_a388b764f4de45d492d202d5a156a6b4",
+      "displayName": "T2_Diagnóza",
+      "description": "",
+      "createdTime": "2021-05-27T23:09:15.8452435Z",
+      "updatedTime": "2022-02-05T03:35:10.5676486Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "327b1e93-1b45-4a12-bc70-2f93dfbf13b8",
+      "displayName": "Chci diagnózu"
+    },
+    {
+      "id": "e1e32a27-8645-4af8-acea-fbb71f3a4c8d",
+      "displayName": "Chci kontakt na hygienickou stanici"
+    },
+    {
+      "id": "ac86333f-4374-42a3-a826-fb18f6a3a77c",
+      "displayName": "Ano"
+    },
+    {
+      "id": "0815734e-f2eb-490c-9e62-7f2d33c495c7",
+      "displayName": "Ne"
+    },
+    {
+      "id": "93c68f30-6f69-416c-b61e-8d9b15e7c8b1",
+      "displayName": "Ano"
+    },
+    {
+      "id": "24206a1d-f89e-47c0-b2f1-facac9318ec3",
+      "displayName": "Ne"
+    },
+    {
+      "id": "a65cc13e-2f01-4f64-ac78-558ffb5cfaa6",
+      "displayName": "Ano"
+    },
+    {
+      "id": "17c89490-552e-4ceb-aa5d-0381062a1ccd",
+      "displayName": "Ne"
+    },
+    {
+      "id": "6bbfaaa5-5e41-4ff4-9eca-c5984e956984",
+      "displayName": "Ano"
+    },
+    {
+      "id": "727e8cae-f7d7-46db-8d5b-0ba65e08825a",
+      "displayName": "Ne"
+    },
+    {
+      "id": "aeaa3280-ad8a-4018-ba60-800d2148c93c",
+      "displayName": "Ano"
+    },
+    {
+      "id": "6cc28bbc-6bd8-4706-98e6-6c5278184d92",
+      "displayName": "Ne"
+    },
+    {
+      "id": "26cf8346-2170-496e-bd97-66f7ee008d41",
+      "displayName": "Ano"
+    },
+    {
+      "id": "a4852957-d10b-4285-b124-24b180b2d4aa",
+      "displayName": "Ne"
+    },
+    {
+      "id": "d45227b9-28df-4f9d-a746-6e98ba983c3e",
+      "displayName": "Ano"
+    },
+    {
+      "id": "b9b5ae17-6124-4450-9b10-8186a5e28293",
+      "displayName": "Ne"
+    },
+    {
+      "id": "349765d7-87fa-4b76-a25a-807199a5eeae",
+      "displayName": "Ano"
+    },
+    {
+      "id": "c8d05189-8030-4844-95e5-300a23ffc5db",
+      "displayName": "Ne"
+    },
+    {
+      "id": "21e1cb78-ab3d-4bc8-94ec-b2e07204a9b4",
+      "displayName": "Ano"
+    },
+    {
+      "id": "ffa04f90-7999-4f34-9e1d-a37743a33910",
+      "displayName": "Ne"
+    },
+    {
+      "id": "c55d952b-0cc6-4faf-bee0-41bc7d67d052",
+      "displayName": "Ano"
+    },
+    {
+      "id": "22ff2060-8efc-41ec-b0df-8dc9725bf433",
+      "displayName": "Ne"
+    },
+    {
+      "id": "b6f20659-6385-4e48-894e-8d3a131d7abd",
+      "displayName": "Ano"
+    },
+    {
+      "id": "1f91a34b-1824-4ca4-b894-05cc5154f40a",
+      "displayName": "Ne"
+    },
+    {
+      "id": "a642fabf-01df-49df-9e08-d57129c60946",
+      "displayName": "Ano"
+    },
+    {
+      "id": "c989c331-569f-46ff-8997-cb262e8e5fa5",
+      "displayName": "Ne"
+    },
+    {
+      "id": "76dd5066-14cc-41c5-858a-2ea8b1c13588",
+      "displayName": "Ano"
+    },
+    {
+      "id": "5b37c94a-d760-4c9e-8e44-a59b988a6fcc",
+      "displayName": "Ne"
+    },
+    {
+      "id": "b12ff025-4aac-41b4-b07b-e9d7cfd7cee4",
+      "displayName": "Ano"
+    },
+    {
+      "id": "c27a9279-cd28-446b-a22c-9c180ccbf166",
+      "displayName": "Ne"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "bda453a9-6daf-423b-a1c1-77dbca87156b",
+      "messageNodes": [
+        {
+          "botMessageId": "16c6d530-bb28-4900-8089-e198cf4aafe1",
+          "nodeType": "BotMessageNode",
+          "id": "bda453a9-6daf-423b-a1c1-77dbca87156b",
+          "defaultTargetNodeId": "83d3a9d8-e505-4890-ab0d-a6b4b5959173"
+        },
+        {
+          "botMessageId": "174f4d77-da39-4736-acb0-1c3c20dc54af",
+          "nodeType": "BotMessageNode",
+          "id": "a9d080cb-1e51-4a30-9c78-5b99a61535c6",
+          "defaultTargetNodeId": "4664390d-5bdc-490d-ae94-b3042b5428fe"
+        },
+        {
+          "botMessageId": "a3cee9c9-f91a-4a3b-b290-c7c968d634cd",
+          "nodeType": "BotMessageNode",
+          "id": "0e959a0a-ba5c-458b-a855-cd94fe3528aa",
+          "defaultTargetNodeId": "754b3ce9-e042-433e-8bd8-03b466b8b495"
+        },
+        {
+          "botMessageId": "042545a6-cf02-40f0-8f82-7dc22bb7ba89",
+          "nodeType": "BotMessageNode",
+          "id": "f2e122c4-970e-42ac-827e-86300c664683",
+          "defaultTargetNodeId": "c044d962-f704-419c-9205-ae0fa056d5ab"
+        },
+        {
+          "botMessageId": "2eecea89-1d6a-4a9a-9a75-df71bb7b908b",
+          "nodeType": "BotMessageNode",
+          "id": "c9ca6333-755d-4afc-9cbc-87db84fc645b",
+          "routes": [
+            {
+              "expression": "@equals(parameters('c189b086-383a-405c-8a19-335cc63c67f3'), 'Vámi uvedené příznaky nenaznačují přítomnost nemoci COVID-19.')",
+              "targetNodeId": "4189ba95-6698-44ec-86b6-6c08fdbf9cef"
+            }
+          ],
+          "defaultTargetNodeId": "6fc54c50-ebdc-430b-9637-8f7022eee360"
+        },
+        {
+          "botMessageId": "467a81af-f658-47d5-a76f-0c8ae0f1de51",
+          "nodeType": "BotMessageNode",
+          "id": "6fc54c50-ebdc-430b-9637-8f7022eee360",
+          "defaultTargetNodeId": "3164497e-8c2d-4564-9bb1-bbd5d6c49451"
+        },
+        {
+          "botMessageId": "0acdc5aa-dd8f-49fa-99a5-96ce75de3bda",
+          "nodeType": "BotMessageNode",
+          "id": "10637900-f78f-4409-80b0-b5eea1afa50b"
+        },
+        {
+          "botMessageId": "e360fb3d-0cd0-406f-96eb-2acbefe2efd3",
+          "nodeType": "BotMessageNode",
+          "id": "4a2f576f-851c-4d6a-93c0-aa219260575b"
+        }
+      ],
+      "actionNodes": [
+        {
+          "contextVariableId": "7fa02094-6dab-40a7-962e-a74e8f47a601",
+          "nodeType": "ActionNode",
+          "inputParameterVariableIdMap": {
+            "text": "{8388dd5a-217e-4667-bca4-119ee865a89c}",
+            "text_1": "{3f62326f-a41c-47ec-8e2c-1b951bea1215}",
+            "text_2": "{3cd2e10c-9f3a-4b08-bd09-5edf59688262}",
+            "text_3": "{91cb7345-b43b-4c8e-81cc-ace204e76aab}",
+            "text_4": "{16ea9f98-aa2d-4701-89a9-c38da0127458}",
+            "text_5": "{0a3c6968-2eaa-43a0-bfee-839c26ee88fa}",
+            "text_6": "{337ce8b0-7340-41da-9684-eef735a2c12f}",
+            "text_7": "{4c68ae1f-2ae6-49c5-b871-81b45d4c4fe3}",
+            "text_8": "{0ab16a4e-88ad-480e-ab81-1b658c2f8a89}",
+            "text_9": "{50b51a7a-5de8-46fb-b144-e84faad875a9}",
+            "text_10": "{9edef7ba-4bdc-4e00-81fa-5c2936e8e645}",
+            "text_11": "{1f79ef43-dddc-4d3d-8894-181f8de394ea}",
+            "text_12": "{31f9ea1f-6a6c-4106-8402-1cae452d67c8}"
+          },
+          "outputExpressionVariableIds": [
+            "c189b086-383a-405c-8a19-335cc63c67f3"
+          ],
+          "id": "c044d962-f704-419c-9205-ae0fa056d5ab",
+          "defaultTargetNodeId": "c9ca6333-755d-4afc-9cbc-87db84fc645b"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_cdd92ab3da6a44ea8008cf147a19b304",
+          "nodeType": "DialogChangeNode",
+          "id": "a8f9245f-72d8-45a8-a185-e0a351a42e68"
+        },
+        {
+          "targetDialogId": "new_topic_cdd92ab3da6a44ea8008cf147a19b304",
+          "nodeType": "DialogChangeNode",
+          "id": "3164497e-8c2d-4564-9bb1-bbd5d6c49451"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "f2adedc7-2a21-48b3-80b2-4acd364af323",
+          "nodeType": "QuestionNode",
+          "id": "83d3a9d8-e505-4890-ab0d-a6b4b5959173",
+          "routes": [
+            {
+              "expression": "@equals(parameters('f2adedc7-2a21-48b3-80b2-4acd364af323'), '327b1e93-1b45-4a12-bc70-2f93dfbf13b8')",
+              "targetNodeId": "a9d080cb-1e51-4a30-9c78-5b99a61535c6"
+            },
+            {
+              "expression": "@equals(parameters('f2adedc7-2a21-48b3-80b2-4acd364af323'), 'e1e32a27-8645-4af8-acea-fbb71f3a4c8d')",
+              "targetNodeId": "a8f9245f-72d8-45a8-a185-e0a351a42e68"
+            }
+          ],
+          "defaultTargetNodeId": "83d3a9d8-e505-4890-ab0d-a6b4b5959173"
+        },
+        {
+          "contextVariableId": "8388dd5a-217e-4667-bca4-119ee865a89c",
+          "nodeType": "QuestionNode",
+          "id": "4664390d-5bdc-490d-ae94-b3042b5428fe",
+          "routes": [
+            {
+              "expression": "@equals(parameters('8388dd5a-217e-4667-bca4-119ee865a89c'), 'ac86333f-4374-42a3-a826-fb18f6a3a77c')",
+              "targetNodeId": "f0dc479f-2529-449a-a919-4afc449d43f9"
+            },
+            {
+              "expression": "@equals(parameters('8388dd5a-217e-4667-bca4-119ee865a89c'), '0815734e-f2eb-490c-9e62-7f2d33c495c7')",
+              "targetNodeId": "f0dc479f-2529-449a-a919-4afc449d43f9"
+            }
+          ],
+          "defaultTargetNodeId": "4664390d-5bdc-490d-ae94-b3042b5428fe"
+        },
+        {
+          "contextVariableId": "3f62326f-a41c-47ec-8e2c-1b951bea1215",
+          "nodeType": "QuestionNode",
+          "id": "f0dc479f-2529-449a-a919-4afc449d43f9",
+          "routes": [
+            {
+              "expression": "@equals(parameters('3f62326f-a41c-47ec-8e2c-1b951bea1215'), '93c68f30-6f69-416c-b61e-8d9b15e7c8b1')",
+              "targetNodeId": "2b12ceb9-588f-4b57-b6f0-c2cbc156bca4"
+            },
+            {
+              "expression": "@equals(parameters('3f62326f-a41c-47ec-8e2c-1b951bea1215'), '24206a1d-f89e-47c0-b2f1-facac9318ec3')",
+              "targetNodeId": "2b12ceb9-588f-4b57-b6f0-c2cbc156bca4"
+            }
+          ],
+          "defaultTargetNodeId": "f0dc479f-2529-449a-a919-4afc449d43f9"
+        },
+        {
+          "contextVariableId": "3cd2e10c-9f3a-4b08-bd09-5edf59688262",
+          "nodeType": "QuestionNode",
+          "id": "2b12ceb9-588f-4b57-b6f0-c2cbc156bca4",
+          "routes": [
+            {
+              "expression": "@equals(parameters('3cd2e10c-9f3a-4b08-bd09-5edf59688262'), 'a65cc13e-2f01-4f64-ac78-558ffb5cfaa6')",
+              "targetNodeId": "72e56df1-4104-4d15-88dc-081d96f1ee78"
+            },
+            {
+              "expression": "@equals(parameters('3cd2e10c-9f3a-4b08-bd09-5edf59688262'), '17c89490-552e-4ceb-aa5d-0381062a1ccd')",
+              "targetNodeId": "72e56df1-4104-4d15-88dc-081d96f1ee78"
+            }
+          ],
+          "defaultTargetNodeId": "2b12ceb9-588f-4b57-b6f0-c2cbc156bca4"
+        },
+        {
+          "contextVariableId": "91cb7345-b43b-4c8e-81cc-ace204e76aab",
+          "nodeType": "QuestionNode",
+          "id": "72e56df1-4104-4d15-88dc-081d96f1ee78",
+          "routes": [
+            {
+              "expression": "@equals(parameters('91cb7345-b43b-4c8e-81cc-ace204e76aab'), '6bbfaaa5-5e41-4ff4-9eca-c5984e956984')",
+              "targetNodeId": "2ad52e13-f401-4ce7-8880-f76fec36c311"
+            },
+            {
+              "expression": "@equals(parameters('91cb7345-b43b-4c8e-81cc-ace204e76aab'), '727e8cae-f7d7-46db-8d5b-0ba65e08825a')",
+              "targetNodeId": "2ad52e13-f401-4ce7-8880-f76fec36c311"
+            }
+          ],
+          "defaultTargetNodeId": "72e56df1-4104-4d15-88dc-081d96f1ee78"
+        },
+        {
+          "contextVariableId": "16ea9f98-aa2d-4701-89a9-c38da0127458",
+          "nodeType": "QuestionNode",
+          "id": "2ad52e13-f401-4ce7-8880-f76fec36c311",
+          "routes": [
+            {
+              "expression": "@equals(parameters('16ea9f98-aa2d-4701-89a9-c38da0127458'), 'aeaa3280-ad8a-4018-ba60-800d2148c93c')",
+              "targetNodeId": "657deb71-e322-47d3-87a7-1f1b2207340a"
+            },
+            {
+              "expression": "@equals(parameters('16ea9f98-aa2d-4701-89a9-c38da0127458'), '6cc28bbc-6bd8-4706-98e6-6c5278184d92')",
+              "targetNodeId": "657deb71-e322-47d3-87a7-1f1b2207340a"
+            }
+          ],
+          "defaultTargetNodeId": "2ad52e13-f401-4ce7-8880-f76fec36c311"
+        },
+        {
+          "contextVariableId": "0a3c6968-2eaa-43a0-bfee-839c26ee88fa",
+          "nodeType": "QuestionNode",
+          "id": "657deb71-e322-47d3-87a7-1f1b2207340a",
+          "routes": [
+            {
+              "expression": "@equals(parameters('0a3c6968-2eaa-43a0-bfee-839c26ee88fa'), '26cf8346-2170-496e-bd97-66f7ee008d41')",
+              "targetNodeId": "0e959a0a-ba5c-458b-a855-cd94fe3528aa"
+            },
+            {
+              "expression": "@equals(parameters('0a3c6968-2eaa-43a0-bfee-839c26ee88fa'), 'a4852957-d10b-4285-b124-24b180b2d4aa')",
+              "targetNodeId": "0e959a0a-ba5c-458b-a855-cd94fe3528aa"
+            }
+          ],
+          "defaultTargetNodeId": "657deb71-e322-47d3-87a7-1f1b2207340a"
+        },
+        {
+          "contextVariableId": "337ce8b0-7340-41da-9684-eef735a2c12f",
+          "nodeType": "QuestionNode",
+          "id": "754b3ce9-e042-433e-8bd8-03b466b8b495",
+          "routes": [
+            {
+              "expression": "@equals(parameters('337ce8b0-7340-41da-9684-eef735a2c12f'), 'd45227b9-28df-4f9d-a746-6e98ba983c3e')",
+              "targetNodeId": "6def1c69-6812-4297-bce1-fe4257b97632"
+            },
+            {
+              "expression": "@equals(parameters('337ce8b0-7340-41da-9684-eef735a2c12f'), 'b9b5ae17-6124-4450-9b10-8186a5e28293')",
+              "targetNodeId": "6def1c69-6812-4297-bce1-fe4257b97632"
+            }
+          ],
+          "defaultTargetNodeId": "754b3ce9-e042-433e-8bd8-03b466b8b495"
+        },
+        {
+          "contextVariableId": "4c68ae1f-2ae6-49c5-b871-81b45d4c4fe3",
+          "nodeType": "QuestionNode",
+          "id": "6def1c69-6812-4297-bce1-fe4257b97632",
+          "routes": [
+            {
+              "expression": "@equals(parameters('4c68ae1f-2ae6-49c5-b871-81b45d4c4fe3'), '349765d7-87fa-4b76-a25a-807199a5eeae')",
+              "targetNodeId": "283f1402-cbb3-43ba-a749-98cff52d4a1b"
+            },
+            {
+              "expression": "@equals(parameters('4c68ae1f-2ae6-49c5-b871-81b45d4c4fe3'), 'c8d05189-8030-4844-95e5-300a23ffc5db')",
+              "targetNodeId": "283f1402-cbb3-43ba-a749-98cff52d4a1b"
+            }
+          ],
+          "defaultTargetNodeId": "6def1c69-6812-4297-bce1-fe4257b97632"
+        },
+        {
+          "contextVariableId": "0ab16a4e-88ad-480e-ab81-1b658c2f8a89",
+          "nodeType": "QuestionNode",
+          "id": "283f1402-cbb3-43ba-a749-98cff52d4a1b",
+          "routes": [
+            {
+              "expression": "@equals(parameters('0ab16a4e-88ad-480e-ab81-1b658c2f8a89'), '21e1cb78-ab3d-4bc8-94ec-b2e07204a9b4')",
+              "targetNodeId": "5349ec47-b611-4908-87df-ab7ea6d9d5a8"
+            },
+            {
+              "expression": "@equals(parameters('0ab16a4e-88ad-480e-ab81-1b658c2f8a89'), 'ffa04f90-7999-4f34-9e1d-a37743a33910')",
+              "targetNodeId": "5349ec47-b611-4908-87df-ab7ea6d9d5a8"
+            }
+          ],
+          "defaultTargetNodeId": "283f1402-cbb3-43ba-a749-98cff52d4a1b"
+        },
+        {
+          "contextVariableId": "50b51a7a-5de8-46fb-b144-e84faad875a9",
+          "nodeType": "QuestionNode",
+          "id": "5349ec47-b611-4908-87df-ab7ea6d9d5a8",
+          "routes": [
+            {
+              "expression": "@equals(parameters('50b51a7a-5de8-46fb-b144-e84faad875a9'), 'c55d952b-0cc6-4faf-bee0-41bc7d67d052')",
+              "targetNodeId": "aa4ad8e2-c769-47f3-891a-ceeea89ebd7b"
+            },
+            {
+              "expression": "@equals(parameters('50b51a7a-5de8-46fb-b144-e84faad875a9'), '22ff2060-8efc-41ec-b0df-8dc9725bf433')",
+              "targetNodeId": "aa4ad8e2-c769-47f3-891a-ceeea89ebd7b"
+            }
+          ],
+          "defaultTargetNodeId": "5349ec47-b611-4908-87df-ab7ea6d9d5a8"
+        },
+        {
+          "contextVariableId": "9edef7ba-4bdc-4e00-81fa-5c2936e8e645",
+          "nodeType": "QuestionNode",
+          "id": "aa4ad8e2-c769-47f3-891a-ceeea89ebd7b",
+          "routes": [
+            {
+              "expression": "@equals(parameters('9edef7ba-4bdc-4e00-81fa-5c2936e8e645'), 'b6f20659-6385-4e48-894e-8d3a131d7abd')",
+              "targetNodeId": "fde2b8bc-5bce-4749-a144-ada156591b78"
+            },
+            {
+              "expression": "@equals(parameters('9edef7ba-4bdc-4e00-81fa-5c2936e8e645'), '1f91a34b-1824-4ca4-b894-05cc5154f40a')",
+              "targetNodeId": "fde2b8bc-5bce-4749-a144-ada156591b78"
+            }
+          ],
+          "defaultTargetNodeId": "aa4ad8e2-c769-47f3-891a-ceeea89ebd7b"
+        },
+        {
+          "contextVariableId": "1f79ef43-dddc-4d3d-8894-181f8de394ea",
+          "nodeType": "QuestionNode",
+          "id": "fde2b8bc-5bce-4749-a144-ada156591b78",
+          "routes": [
+            {
+              "expression": "@equals(parameters('1f79ef43-dddc-4d3d-8894-181f8de394ea'), 'a642fabf-01df-49df-9e08-d57129c60946')",
+              "targetNodeId": "7c602340-6f69-433c-8bbd-153df021c17d"
+            },
+            {
+              "expression": "@equals(parameters('1f79ef43-dddc-4d3d-8894-181f8de394ea'), 'c989c331-569f-46ff-8997-cb262e8e5fa5')",
+              "targetNodeId": "7c602340-6f69-433c-8bbd-153df021c17d"
+            }
+          ],
+          "defaultTargetNodeId": "fde2b8bc-5bce-4749-a144-ada156591b78"
+        },
+        {
+          "contextVariableId": "31f9ea1f-6a6c-4106-8402-1cae452d67c8",
+          "nodeType": "QuestionNode",
+          "id": "7c602340-6f69-433c-8bbd-153df021c17d",
+          "routes": [
+            {
+              "expression": "@equals(parameters('31f9ea1f-6a6c-4106-8402-1cae452d67c8'), '76dd5066-14cc-41c5-858a-2ea8b1c13588')",
+              "targetNodeId": "f2e122c4-970e-42ac-827e-86300c664683"
+            },
+            {
+              "expression": "@equals(parameters('31f9ea1f-6a6c-4106-8402-1cae452d67c8'), '5b37c94a-d760-4c9e-8e44-a59b988a6fcc')",
+              "targetNodeId": "f2e122c4-970e-42ac-827e-86300c664683"
+            }
+          ],
+          "defaultTargetNodeId": "7c602340-6f69-433c-8bbd-153df021c17d"
+        },
+        {
+          "contextVariableId": "9c9115e2-8c2a-4853-a396-f062e5b5a038",
+          "nodeType": "QuestionNode",
+          "id": "4189ba95-6698-44ec-86b6-6c08fdbf9cef",
+          "routes": [
+            {
+              "expression": "@equals(parameters('9c9115e2-8c2a-4853-a396-f062e5b5a038'), 'b12ff025-4aac-41b4-b07b-e9d7cfd7cee4')",
+              "targetNodeId": "10637900-f78f-4409-80b0-b5eea1afa50b"
+            },
+            {
+              "expression": "@equals(parameters('9c9115e2-8c2a-4853-a396-f062e5b5a038'), 'c27a9279-cd28-446b-a22c-9c180ccbf166')",
+              "targetNodeId": "4a2f576f-851c-4d6a-93c0-aa219260575b"
+            }
+          ],
+          "defaultTargetNodeId": "4189ba95-6698-44ec-86b6-6c08fdbf9cef"
+        }
+      ],
+      "id": "new_topic_a388b764f4de45d492d202d5a156a6b4",
+      "displayName": "Dialog for Diagnóza",
+      "createdTime": "2021-05-27T23:09:15.8452435Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Tato diagnóza však nenahrazuje lékařskou péči a slouží pouze jako orientační evaluace příznaků.\n\nV případě akutních obtíží neprodleně kontaktujte praktického lékaře nebo linku 155."
+        }
+      },
+      "id": "15c602c6-4444-49f3-9736-102052e2d2e1",
+      "createdTime": "2021-05-27T23:17:09.162Z",
+      "updatedTime": "2021-05-27T23:17:09.162Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Měli jste v posledních dnech horečku (zimnici, nadměrné pocení)?"
+        }
+      },
+      "id": "669b7443-91d9-4deb-b5d2-a0e245aaea3d",
+      "createdTime": "2021-05-27T23:51:40.46Z",
+      "updatedTime": "2021-05-27T23:51:40.46Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Pozorujete v posledních dnech prudký pokles nebo úplnou ztrátu chuti nebo čichu?"
+        }
+      },
+      "id": "8b162552-52c6-4a13-92cc-fd83b8c71718",
+      "createdTime": "2021-05-27T23:55:56.726Z",
+      "updatedTime": "2021-05-27T23:55:56.726Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Máte kašel nebo se Vám stávající kašel zhoršil?"
+        }
+      },
+      "id": "bd68b6fa-6bb4-4cf6-bec8-f9b90e1766d8",
+      "createdTime": "2021-05-27T23:57:56.371Z",
+      "updatedTime": "2021-05-27T23:57:56.371Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Pociťujete dušnost nebo obtíže s dýcháním?"
+        }
+      },
+      "id": "22ddcc62-f9d1-4068-b679-00f7f90a95a1",
+      "createdTime": "2021-06-07T10:59:39.789Z",
+      "updatedTime": "2021-06-07T10:59:39.789Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Bolí/škrábe Vás v krku?"
+        }
+      },
+      "id": "0ddc586b-c681-41df-bd8f-9978c0e77e25",
+      "createdTime": "2021-06-07T11:00:32.496Z",
+      "updatedTime": "2021-06-07T11:00:32.496Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Máte rýmu nebo ucpaný nos z nevysvětlitelných důvodů?"
+        }
+      },
+      "id": "660d5dd9-1160-4aea-953c-4a1270ce45b7",
+      "createdTime": "2021-06-07T11:01:36.183Z",
+      "updatedTime": "2021-06-07T11:01:36.183Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Bolesti břicha"
+        }
+      },
+      "id": "cc5cf18f-22d6-46f8-b929-1c422e0bae38",
+      "createdTime": "2021-06-07T11:03:55.448Z",
+      "updatedTime": "2021-06-07T11:03:55.448Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Nevolnost/zvracení"
+        }
+      },
+      "id": "18512268-840a-48f3-b74f-0bb581000981",
+      "createdTime": "2021-06-07T11:05:05.054Z",
+      "updatedTime": "2021-06-07T11:05:05.054Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Průjem"
+        }
+      },
+      "id": "f377e093-dec7-4944-9cba-22ea9c6ac1a0",
+      "createdTime": "2021-06-07T11:05:49.446Z",
+      "updatedTime": "2021-06-07T11:05:49.446Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Nezvyklá únava/malátnost"
+        }
+      },
+      "id": "2387ec4c-899d-43d5-b38d-bbe1101813b1",
+      "createdTime": "2021-06-07T11:06:46.846Z",
+      "updatedTime": "2021-06-07T11:06:46.846Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Výrazná ztráta chuti k jídlu"
+        }
+      },
+      "id": "11468e85-be58-4f4e-8e56-ee3c2f8e3484",
+      "createdTime": "2021-06-07T11:08:05.206Z",
+      "updatedTime": "2021-06-07T11:08:05.206Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Bolest/únavu svalů (nezpůsobená fyzickou aktivitou)"
+        }
+      },
+      "id": "cf15c735-daf4-4239-8e09-34c9f7935014",
+      "createdTime": "2021-06-07T11:08:47.029Z",
+      "updatedTime": "2021-06-07T11:08:47.029Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Bolest hlavy"
+        }
+      },
+      "id": "5a59d079-9750-4d61-b93a-2a52bc9e7350",
+      "createdTime": "2021-06-07T11:09:25.3Z",
+      "updatedTime": "2021-06-07T11:09:25.3Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Byl/a jste v nejbližší době v kontaktu s nakaženou osobou?"
+        }
+      },
+      "id": "d4a9d755-bbf7-4bf3-a611-c9151fc7fdc4",
+      "createdTime": "2021-12-07T19:24:40.791Z",
+      "updatedTime": "2021-12-07T19:24:40.791Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Pokud máte podezření, že byste mohl(a) být infikován(a) koronavirem, mohu Vám poskytnout diagnózu příznaků."
+        }
+      },
+      "id": "16c6d530-bb28-4900-8089-e198cf4aafe1",
+      "createdTime": "2021-05-27T23:09:15.8452435Z",
+      "updatedTime": "2021-05-27T23:09:15.8452435Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Zodpovězte mi prosím pár dotazů."
+        }
+      },
+      "id": "174f4d77-da39-4736-acb0-1c3c20dc54af",
+      "createdTime": "2021-05-27T23:51:25.823Z",
+      "updatedTime": "2021-05-27T23:51:25.823Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Už jsme skoro tam, zodpovězte mi prosím ještě, zda pociťujete některý z následujících příznaků."
+        }
+      },
+      "id": "a3cee9c9-f91a-4a3b-b290-c7c968d634cd",
+      "createdTime": "2021-06-07T11:03:41.914Z",
+      "updatedTime": "2021-06-07T11:03:41.914Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Vámi uvedené příznaky:\n\nHorečka/Zimnice - {8388dd5a-217e-4667-bca4-119ee865a89c}  \nZtráta chuti/čichu - {3f62326f-a41c-47ec-8e2c-1b951bea1215}  \nKašel - {3cd2e10c-9f3a-4b08-bd09-5edf59688262}  \nDušnost - {91cb7345-b43b-4c8e-81cc-ace204e76aab}  \nBolest v krku - {9edef7ba-4bdc-4e00-81fa-5c2936e8e645}  \nRýma - {0a3c6968-2eaa-43a0-bfee-839c26ee88fa}  \nBolesti břicha - {337ce8b0-7340-41da-9684-eef735a2c12f}  \nNevolnost - {4c68ae1f-2ae6-49c5-b871-81b45d4c4fe3}  \nPrůjem - {0ab16a4e-88ad-480e-ab81-1b658c2f8a89}  \nMalátnost - {50b51a7a-5de8-46fb-b144-e84faad875a9}  \nZtráta chuti k jídlu - {9edef7ba-4bdc-4e00-81fa-5c2936e8e645}  \nÚnava svalstva - {1f79ef43-dddc-4d3d-8894-181f8de394ea}  \nBolest hlavy - {31f9ea1f-6a6c-4106-8402-1cae452d67c8}"
+        }
+      },
+      "id": "042545a6-cf02-40f0-8f82-7dc22bb7ba89",
+      "createdTime": "2021-11-30T02:39:37.279Z",
+      "updatedTime": "2021-11-30T02:39:37.279Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "{c189b086-383a-405c-8a19-335cc63c67f3}"
+        }
+      },
+      "id": "2eecea89-1d6a-4a9a-9a75-df71bb7b908b",
+      "createdTime": "2021-11-30T02:40:14.198Z",
+      "updatedTime": "2021-11-30T02:40:14.198Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Bez ohledu na výsledek bych však doporučil telefonicky vyhledat odbornou pomoc"
+        }
+      },
+      "id": "467a81af-f658-47d5-a76f-0c8ae0f1de51",
+      "createdTime": "2021-11-30T02:58:21.767Z",
+      "updatedTime": "2021-11-30T02:58:21.767Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Doporučuji domácí karanténu"
+        }
+      },
+      "id": "0acdc5aa-dd8f-49fa-99a5-96ce75de3bda",
+      "createdTime": "2021-12-07T19:27:02.806Z",
+      "updatedTime": "2021-12-07T19:27:02.806Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Všechno v poho"
+        }
+      },
+      "id": "e360fb3d-0cd0-406f-96eb-2acbefe2efd3",
+      "createdTime": "2021-12-07T19:27:53.742Z",
+      "updatedTime": "2021-12-07T19:27:53.742Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "actionDefinitions": [
+    {
+      "timeoutInSeconds": 60,
+      "retryCount": 1,
+      "method": 2,
+      "headers": {
+        "accept": "application/json"
+      },
+      "bodyContent": "{\"text\":\"{8388dd5a-217e-4667-bca4-119ee865a89c}\",\"text_1\":\"{3f62326f-a41c-47ec-8e2c-1b951bea1215}\",\"text_2\":\"{3cd2e10c-9f3a-4b08-bd09-5edf59688262}\",\"text_3\":\"{91cb7345-b43b-4c8e-81cc-ace204e76aab}\",\"text_4\":\"{16ea9f98-aa2d-4701-89a9-c38da0127458}\",\"text_5\":\"{0a3c6968-2eaa-43a0-bfee-839c26ee88fa}\",\"text_6\":\"{337ce8b0-7340-41da-9684-eef735a2c12f}\",\"text_7\":\"{4c68ae1f-2ae6-49c5-b871-81b45d4c4fe3}\",\"text_8\":\"{0ab16a4e-88ad-480e-ab81-1b658c2f8a89}\",\"text_9\":\"{50b51a7a-5de8-46fb-b144-e84faad875a9}\",\"text_10\":\"{9edef7ba-4bdc-4e00-81fa-5c2936e8e645}\",\"text_11\":\"{1f79ef43-dddc-4d3d-8894-181f8de394ea}\",\"text_12\":\"{31f9ea1f-6a6c-4106-8402-1cae452d67c8}\"}",
+      "actionType": "Flow",
+      "flowMetadata": {
+        "id": "f14a78de-31c8-eb11-bacc-000d3ab10cd6",
+        "uniqueId": "62e66bf2-6883-467d-99ab-db3d629223d4",
+        "title": "Symptom",
+        "description": "",
+        "httpMethod": 2,
+        "inputParameters": [
+          {
+            "name": "Sym1",
+            "id": "text",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Sym2",
+            "id": "text_1",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Sym3",
+            "id": "text_2",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Sym4",
+            "id": "text_3",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Sym5",
+            "id": "text_4",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Sym6",
+            "id": "text_5",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Sym7",
+            "id": "text_6",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Sym8",
+            "id": "text_7",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Sym9",
+            "id": "text_8",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Sym10",
+            "id": "text_9",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Sym11",
+            "id": "text_10",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Sym12",
+            "id": "text_11",
+            "type": "String",
+            "optional": false
+          },
+          {
+            "name": "Sym13",
+            "id": "text_12",
+            "type": "String",
+            "optional": false
+          }
+        ],
+        "outputParameters": [
+          {
+            "name": "SyResult",
+            "id": "syresult",
+            "type": "String",
+            "optional": true
+          }
+        ],
+        "outputSchemaType": "Json",
+        "createdTime": "2021-06-08T08:16:48Z",
+        "isEnabled": true,
+        "lastModifiedTime": "2021-11-30T02:01:19Z",
+        "versionNumber": 16173838
+      },
+      "id": "419b9a6c-6d6c-4347-88d4-60587b71372d",
+      "displayName": "Symptom",
+      "description": "",
+      "createdTime": "2021-11-30T02:02:13.901Z",
+      "updatedTime": "2021-11-30T02:02:13.901Z"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "327b1e93-1b45-4a12-bc70-2f93dfbf13b8",
+        "e1e32a27-8645-4af8-acea-fbb71f3a4c8d"
+      ],
+      "messages": {
+        "GetValue": [
+          "15c602c6-4444-49f3-9736-102052e2d2e1"
+        ]
+      },
+      "isGlobal": false,
+      "id": "f2adedc7-2a21-48b3-80b2-4acd364af323",
+      "displayName": "DiagChoiceVar",
+      "createdTime": "2021-05-27T23:17:09.162Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "ac86333f-4374-42a3-a826-fb18f6a3a77c",
+        "0815734e-f2eb-490c-9e62-7f2d33c495c7"
+      ],
+      "messages": {
+        "GetValue": [
+          "669b7443-91d9-4deb-b5d2-a0e245aaea3d"
+        ]
+      },
+      "isGlobal": false,
+      "id": "8388dd5a-217e-4667-bca4-119ee865a89c",
+      "displayName": "Sym1Var",
+      "createdTime": "2021-05-27T23:51:40.46Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "93c68f30-6f69-416c-b61e-8d9b15e7c8b1",
+        "24206a1d-f89e-47c0-b2f1-facac9318ec3"
+      ],
+      "messages": {
+        "GetValue": [
+          "8b162552-52c6-4a13-92cc-fd83b8c71718"
+        ]
+      },
+      "isGlobal": false,
+      "id": "3f62326f-a41c-47ec-8e2c-1b951bea1215",
+      "displayName": "Sym2Var",
+      "createdTime": "2021-05-27T23:55:56.726Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "a65cc13e-2f01-4f64-ac78-558ffb5cfaa6",
+        "17c89490-552e-4ceb-aa5d-0381062a1ccd"
+      ],
+      "messages": {
+        "GetValue": [
+          "bd68b6fa-6bb4-4cf6-bec8-f9b90e1766d8"
+        ]
+      },
+      "isGlobal": false,
+      "id": "3cd2e10c-9f3a-4b08-bd09-5edf59688262",
+      "displayName": "Sym3Var",
+      "createdTime": "2021-05-27T23:57:56.371Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "6bbfaaa5-5e41-4ff4-9eca-c5984e956984",
+        "727e8cae-f7d7-46db-8d5b-0ba65e08825a"
+      ],
+      "messages": {
+        "GetValue": [
+          "22ddcc62-f9d1-4068-b679-00f7f90a95a1"
+        ]
+      },
+      "isGlobal": false,
+      "id": "91cb7345-b43b-4c8e-81cc-ace204e76aab",
+      "displayName": "SymVar4",
+      "createdTime": "2021-06-07T10:59:39.789Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "aeaa3280-ad8a-4018-ba60-800d2148c93c",
+        "6cc28bbc-6bd8-4706-98e6-6c5278184d92"
+      ],
+      "messages": {
+        "GetValue": [
+          "0ddc586b-c681-41df-bd8f-9978c0e77e25"
+        ]
+      },
+      "isGlobal": false,
+      "id": "16ea9f98-aa2d-4701-89a9-c38da0127458",
+      "displayName": "SymVar5",
+      "createdTime": "2021-06-07T11:00:32.496Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "26cf8346-2170-496e-bd97-66f7ee008d41",
+        "a4852957-d10b-4285-b124-24b180b2d4aa"
+      ],
+      "messages": {
+        "GetValue": [
+          "660d5dd9-1160-4aea-953c-4a1270ce45b7"
+        ]
+      },
+      "isGlobal": false,
+      "id": "0a3c6968-2eaa-43a0-bfee-839c26ee88fa",
+      "displayName": "SymVar6",
+      "createdTime": "2021-06-07T11:01:36.183Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "d45227b9-28df-4f9d-a746-6e98ba983c3e",
+        "b9b5ae17-6124-4450-9b10-8186a5e28293"
+      ],
+      "messages": {
+        "GetValue": [
+          "cc5cf18f-22d6-46f8-b929-1c422e0bae38"
+        ]
+      },
+      "isGlobal": false,
+      "id": "337ce8b0-7340-41da-9684-eef735a2c12f",
+      "displayName": "SyminVar1",
+      "createdTime": "2021-06-07T11:03:55.448Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "349765d7-87fa-4b76-a25a-807199a5eeae",
+        "c8d05189-8030-4844-95e5-300a23ffc5db"
+      ],
+      "messages": {
+        "GetValue": [
+          "18512268-840a-48f3-b74f-0bb581000981"
+        ]
+      },
+      "isGlobal": false,
+      "id": "4c68ae1f-2ae6-49c5-b871-81b45d4c4fe3",
+      "displayName": "SyminVar2",
+      "createdTime": "2021-06-07T11:05:05.054Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "21e1cb78-ab3d-4bc8-94ec-b2e07204a9b4",
+        "ffa04f90-7999-4f34-9e1d-a37743a33910"
+      ],
+      "messages": {
+        "GetValue": [
+          "f377e093-dec7-4944-9cba-22ea9c6ac1a0"
+        ]
+      },
+      "isGlobal": false,
+      "id": "0ab16a4e-88ad-480e-ab81-1b658c2f8a89",
+      "displayName": "SyminVar3",
+      "createdTime": "2021-06-07T11:05:49.447Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "c55d952b-0cc6-4faf-bee0-41bc7d67d052",
+        "22ff2060-8efc-41ec-b0df-8dc9725bf433"
+      ],
+      "messages": {
+        "GetValue": [
+          "2387ec4c-899d-43d5-b38d-bbe1101813b1"
+        ]
+      },
+      "isGlobal": false,
+      "id": "50b51a7a-5de8-46fb-b144-e84faad875a9",
+      "displayName": "SyminVar4",
+      "createdTime": "2021-06-07T11:06:46.846Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "b6f20659-6385-4e48-894e-8d3a131d7abd",
+        "1f91a34b-1824-4ca4-b894-05cc5154f40a"
+      ],
+      "messages": {
+        "GetValue": [
+          "11468e85-be58-4f4e-8e56-ee3c2f8e3484"
+        ]
+      },
+      "isGlobal": false,
+      "id": "9edef7ba-4bdc-4e00-81fa-5c2936e8e645",
+      "displayName": "SyminVar5",
+      "createdTime": "2021-06-07T11:08:05.206Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "a642fabf-01df-49df-9e08-d57129c60946",
+        "c989c331-569f-46ff-8997-cb262e8e5fa5"
+      ],
+      "messages": {
+        "GetValue": [
+          "cf15c735-daf4-4239-8e09-34c9f7935014"
+        ]
+      },
+      "isGlobal": false,
+      "id": "1f79ef43-dddc-4d3d-8894-181f8de394ea",
+      "displayName": "SyminVar6",
+      "createdTime": "2021-06-07T11:08:47.029Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "76dd5066-14cc-41c5-858a-2ea8b1c13588",
+        "5b37c94a-d760-4c9e-8e44-a59b988a6fcc"
+      ],
+      "messages": {
+        "GetValue": [
+          "5a59d079-9750-4d61-b93a-2a52bc9e7350"
+        ]
+      },
+      "isGlobal": false,
+      "id": "31f9ea1f-6a6c-4106-8402-1cae452d67c8",
+      "displayName": "SyminVar7",
+      "createdTime": "2021-06-07T11:09:25.3Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "b12ff025-4aac-41b4-b07b-e9d7cfd7cee4",
+        "c27a9279-cd28-446b-a22c-9c180ccbf166"
+      ],
+      "messages": {
+        "GetValue": [
+          "d4a9d755-bbf7-4bf3-a611-c9151fc7fdc4"
+        ]
+      },
+      "isGlobal": false,
+      "id": "9c9115e2-8c2a-4853-a396-f062e5b5a038",
+      "displayName": "infectedContactVar",
+      "createdTime": "2021-12-07T19:24:40.791Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "customTypeId": "5e8273b3-5870-495e-8be5-792480e63652",
+      "initializerType": "Action",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "actionId": "419b9a6c-6d6c-4347-88d4-60587b71372d",
+      "isGlobal": false,
+      "id": "7fa02094-6dab-40a7-962e-a74e8f47a601",
+      "displayName": "",
+      "createdTime": "2021-11-30T02:02:13.902Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "Expression",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": false,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "expression": "@parameters('7fa02094-6dab-40a7-962e-a74e8f47a601')['syresult']",
+      "isGlobal": false,
+      "id": "c189b086-383a-405c-8a19-335cc63c67f3",
+      "displayName": "SyResult",
+      "createdTime": "2021-11-30T02:02:13.902Z",
+      "updatedTime": "2022-01-03T00:18:55.6796261Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "jsonTypes": [
+    {
+      "customTypeSchema": "Json",
+      "id": "5e8273b3-5870-495e-8be5-792480e63652",
+      "displayName": "Response Json Type for Flow - Symptom",
+      "createdTime": "2021-11-30T02:02:13.902Z",
+      "updatedTime": "2021-11-30T02:02:13.902Z"
+    }
+  ]
+}

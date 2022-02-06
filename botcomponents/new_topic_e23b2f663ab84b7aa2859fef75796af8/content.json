@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "antigenní testování",
+        "antigenní test",
+        "pcr test",
+        "pcr",
+        "antigen",
+        "testování"
+      ],
+      "dialogId": "new_topic_e23b2f663ab84b7aa2859fef75796af8",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_e23b2f663ab84b7aa2859fef75796af8",
+      "displayName": "INFO_Testovani",
+      "description": "",
+      "createdTime": "2021-12-05T16:06:24.292979Z",
+      "updatedTime": "2022-02-05T03:37:30.7377437Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "c8f23f12-4bff-4423-a0f6-4b6f319f9b1c",
+      "messageNodes": [
+        {
+          "botMessageId": "0c0062ec-2e1b-4f9f-b278-52542aa266c4",
+          "nodeType": "BotMessageNode",
+          "id": "c8f23f12-4bff-4423-a0f6-4b6f319f9b1c",
+          "defaultTargetNodeId": "59088211-923b-4de8-bb44-06d67fc09c91"
+        },
+        {
+          "botMessageId": "bdd6d30b-b2d0-4eec-b5a0-2af9fcabdb22",
+          "nodeType": "BotMessageNode",
+          "id": "59088211-923b-4de8-bb44-06d67fc09c91",
+          "defaultTargetNodeId": "8b86301e-01dd-4b81-8e45-41027336bae1"
+        },
+        {
+          "botMessageId": "7d0dfb55-a04a-4b52-b48d-d836990392c0",
+          "nodeType": "BotMessageNode",
+          "id": "8b86301e-01dd-4b81-8e45-41027336bae1",
+          "defaultTargetNodeId": "d2b0d382-0618-4fcb-8a27-934126a9db1d"
+        },
+        {
+          "botMessageId": "a71a7add-b5f9-41d0-8f5f-39a80bae3f25",
+          "nodeType": "BotMessageNode",
+          "id": "d2b0d382-0618-4fcb-8a27-934126a9db1d"
+        }
+      ],
+      "id": "new_topic_e23b2f663ab84b7aa2859fef75796af8",
+      "displayName": "Dialog for INFO_Testovani",
+      "createdTime": "2021-12-05T16:06:24.292979Z",
+      "updatedTime": "2022-02-05T03:15:28.6018391Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Testování je jedinou formou spolehlivé diagnózy onemocnění.\n\nV současné chvíli existují dvě metody testování, jimiž je antigenní metoda a PCR metoda."
+        }
+      },
+      "id": "0c0062ec-2e1b-4f9f-b278-52542aa266c4",
+      "createdTime": "2021-12-05T16:06:24.292979Z",
+      "updatedTime": "2021-12-05T16:06:24.292979Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Antigenní testy:**\n\n*   jsou méně přesné než PCR testy - někdy může být vyhodnocen jako negativní, přesto že je osoba nakažena\n*   jsou levnější\n*   nevyžadují sofistikované laboratorní vybavení\n*   poskytují rychlý výsledek\n*   získává vzorek výtěrem z nosu/krku\n*   jsou zvláště doporučeny v případě nedostupnosti PCR testu"
+        }
+      },
+      "id": "bdd6d30b-b2d0-4eec-b5a0-2af9fcabdb22",
+      "createdTime": "2022-02-05T02:50:31.906Z",
+      "updatedTime": "2022-02-05T02:50:31.906Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**PCR testy:**\n\n*   jsou dosud nejpřesnější dostupnou formou testování\n*   jsou více nákladné\n*   vyžadují sofistikované laboratorní vybavení, které není všude dostupné\n*   vyžadují přítomnost kvalifikované osoby\n*   vyžadují čas pro evaluaci výsledku\n*   získává vzorek výtěrem z nosu/krku\n*   jsou upřednostňovanou formou testování"
+        }
+      },
+      "id": "7d0dfb55-a04a-4b52-b48d-d836990392c0",
+      "createdTime": "2022-02-05T02:58:35.815Z",
+      "updatedTime": "2022-02-05T02:58:35.815Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "V Česku se nachází stovky odběrových míst. Zároveň nabízí také testování antigenními testy.   \nOdběrová místa najdete na mapě spravované Ministerstvem zdravotnictví ČR, kde se také můžete [objednat online.](https://testovani.uzis.cz/)"
+        }
+      },
+      "id": "a71a7add-b5f9-41d0-8f5f-39a80bae3f25",
+      "createdTime": "2022-02-05T03:10:03.005Z",
+      "updatedTime": "2022-02-05T03:10:03.005Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ]
+}

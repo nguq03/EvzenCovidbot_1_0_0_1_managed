@@ -1,0 +1,50 @@
+{
+  "namedEntities": [
+    {
+      "synonyms": [
+        "souhlas",
+        "jojo",
+        "jasný",
+        "jasně",
+        "jo"
+      ],
+      "id": "994d3f24-0c84-4561-8d67-6566a6dbcf62",
+      "displayName": "Ano",
+      "createdTime": "2021-12-07T02:50:55.3738895Z",
+      "updatedTime": "2021-12-08T14:57:52.3648723Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    },
+    {
+      "synonyms": [
+        "už ne",
+        "nene",
+        "nikoliv",
+        "vůbec"
+      ],
+      "id": "bc009153-a192-4d30-9a80-57410cf03513",
+      "displayName": "Ne",
+      "createdTime": "2021-12-07T02:50:55.3738895Z",
+      "updatedTime": "2021-12-08T14:57:52.3648723Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ],
+  "closedListTypes": [
+    {
+      "namedEntities": [
+        "994d3f24-0c84-4561-8d67-6566a6dbcf62",
+        "bc009153-a192-4d30-9a80-57410cf03513"
+      ],
+      "smartMatchingEnabled": true,
+      "customTypeSchema": "ClosedList",
+      "id": "new_customtype_5ff85d7c0cc044a6af802d36777195b7",
+      "displayName": "BooleanCZ",
+      "description": "",
+      "createdTime": "2021-12-07T02:50:55.3738895Z",
+      "updatedTime": "2021-12-08T14:57:52.3648723Z",
+      "createdUserId": "b5977408-ff69-426a-9161-826e64f51cb4",
+      "updatedUserId": "b5977408-ff69-426a-9161-826e64f51cb4"
+    }
+  ]
+}
